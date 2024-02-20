@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+<form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Фильтровать</button>
+    <a href="{% url 'catalog:book_list' %}">Очистить</a>
+    <hr>
+</form>
+
+<ul>
+    {% for book in filter.qs %}
+        <p><li><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></li></p>
+
+    {% endfor %}
+</ul>
+{% endblock %}

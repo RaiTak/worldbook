@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+{% load category_tags %}
+
+
+{% block content %}
+    {% show_categories cat_selected %}
+
+    {% for book in content %}
+        <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
+        <img src="{{ book.image.url }}">
+    {% endfor %}
+
+{% endblock %}
