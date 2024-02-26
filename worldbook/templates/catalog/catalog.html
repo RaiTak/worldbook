@@ -1,13 +1,19 @@
 {% extends 'main/base.html' %}
-{% load category_tags %}
 
 
 {% block content %}
-    {% show_categories cat_selected %}
+<form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Фильтровать</button>
+    <a href="{% url 'catalog:catalog' %}">Очистить</a>
+    <hr>
+</form>
 
-    {% for book in content %}
+<ul>
+    {% for book in filter.qs %}
         <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
         <img src="{{ book.image.url }}">
-    {% endfor %}
 
+    {% endfor %}
+</ul>
 {% endblock %}

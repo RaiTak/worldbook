@@ -1,15 +1,59 @@
 {% extends 'main/base.html' %}
-{% load category_tags %}
 
 
 {% block content %}
+    <h1>{{ book.name }}</h1>
 
-    {% show_categories cat_selected %}
-
-    <p>{{ book.name }}</p>
     <p> <img src="{{ book.image.url }}"></p>
+
+    <h2>Описание</h2>
     <p>{{ book.description }}</p>
-    <p>{{ book.author }}</p>
-    <p>{{ book.year }}</p>
-    <p>{{ book.category }}</p>
+
+    <h2>Характеристики</h2>
+    Год издания: {{ book.year }}
+
+    {% if book.authors.all %}
+        <p>Автор:
+            {% for author in book.authors.all %}
+                <a href="{{ author.get_absolute_url }}">{{ author }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+    {% else %}
+        <p>Авторы не указаны</p>
+    {% endif %}
+
+    <p>Категория: <a href="{{ book.category.get_absolute_url }}">{{ book.category }}</a></p>
+
+    {% if book.genre.all %}
+        <p>Жанры:
+            {% for genre in book.genre.all %}
+                <a href="{{ genre.get_absolute_url }}">{{ genre }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+    {% else %}
+        <p>Жанры не указаны</p>
+    {% endif %}
+
+    {% if book.tags.all %}
+        <p>Тэги:
+            {% for tag in book.tags.all %}
+                <a href="{{ tag.get_absolute_url }}">{{ tag }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+    {% else %}
+        <p>Тэги не указаны</p>
+    {% endif %}
+
+    ISBN: {{ book.isbn }}
+
+    <p>Страницы : {{ book.pages }}</p>
+
+    <p>Язык: {{ book.language }}</p>
+
+    <p>Издатель: {{ book.publisher }}</p>
+
+    <p>Размер: {{ book.format }}</p>
+
+    <h2>Цена</h2>
+    <p>{{ book.price }}</p>
 {% endblock %}

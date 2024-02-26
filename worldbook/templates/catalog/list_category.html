@@ -1,8 +1,0 @@
-{% for cat in cats %}
-{% if cat.slug == cat_selected %}
-    <a href="{{ cat.get_absolute_url }}" class="active">{{ cat.name }} |</a>
-{% else %}
-    <a href="{{ cat.get_absolute_url }}">{{ cat.name }}</a> |
-{% endif %}
-{% endfor %}
-<hr>

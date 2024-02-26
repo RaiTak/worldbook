@@ -1,17 +1,49 @@
 {% extends 'main/base.html' %}
 
 {% block content %}
-<form method="get">
-    {{ filter.form.as_p }}
-    <button type="submit">Фильтровать</button>
-    <a href="{% url 'catalog:book_list' %}">Очистить</a>
-    <hr>
-</form>
 
-<ul>
-    {% for book in filter.qs %}
-        <p><li><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></li></p>
+{% if content.get_type == 'Author' %}
+    <h1>{{ content }}</h1>
 
-    {% endfor %}
-</ul>
+    {% if content.photo %}
+    <img src="{{ content.photo.url }}">
+    {% endif %}
+
+    <h2>Биография</h2>
+    {{ content.biography }}
+
+    <h2>Книги</h2>
+    {% if content.books.all %}
+        {% for book in content.books.all %}
+            <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
+            <img src="{{ book.image.url }}">
+        {% endfor %}
+    {% else %}
+        <p>Книги не указаны</p>
+    {% endif %}
+
+
+{% else %}
+    <h1>{{ content.name }}</h1>
+
+    {% if content.icon %}
+        <img src="{{ content.icon.url }}">
+    {% endif %}
+
+    <h2>Описание</h2>
+    {{ content.description }}
+
+    <h2>Книги</h2>
+    {% if content.books.all %}
+        {% for book in content.books.all %}
+            <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
+            {% if book.image %}
+                <img src="{{ book.image.url }}">
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <p>Книги не указаны</p>
+    {% endif %}
+{% endif %}
+
 {% endblock %}

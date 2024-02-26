@@ -1,8 +1,8 @@
 import django_filters
-from .models import Product
+from .models import Book
 
 
 class BookFilter(django_filters.FilterSet):
     class Meta:
-        model = Product
-        fields = ['year', 'category']
+        model = Book
+        fields = ['category', 'genre', 'tags', 'authors', 'year']

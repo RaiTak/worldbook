@@ -1,40 +1,54 @@
-from django.shortcuts import render
-from catalog.models import Category, Product
+from django.shortcuts import render, get_object_or_404
+from catalog.models import Category, Book, Genre, Tag, Author
 from .utils import BookFilter
+from django.views import View
+from django.http import Http404
 
 
-def catalog(request, category_slug=None):
-    book_filter = BookFilter(request.GET, queryset=Product.objects.all())
-    if category_slug:
-        cat = Category.objects.get(slug=category_slug)
-        books = cat.books.all()
-    else:
-        books = Product.objects.all()
+MODEL_MAP = {
+        'category': Category,
+        'genre': Genre,
+        'tag': Tag,
+        'author': Author,
+    }
+
+
+def catalog(request):
+    book_filter = BookFilter(request.GET, queryset=Book.objects.all())
 
     context = {
         'title': 'Каталог',
         'filter': book_filter,
-        'category': category,
-        'cat_selected': category_slug,
-
     }
 
     return render(request, template_name='catalog/catalog.html', context=context)
 
 
-def book(reqeust, book_slug):
-    book = Product.objects.get(slug=book_slug)
+def book(request, book_slug):
+    book = Book.objects.get(slug=book_slug)
     cat_selected = book.category.slug
 
     context = {
-        'title': 'Книга',
+        'title': book.name,
         'book': book,
         'cat_selected': cat_selected,
     }
 
-    return render(reqeust, template_name='catalog/product.html', context=context)
+    return render(request, template_name='catalog/product.html', context=context)
 
 
-def book_list(request):
-    book_filter = BookFilter(request.GET, queryset=Product.objects.all())
-    return render(request, 'catalog/book_list.html', {'filter': book_filter})
+class BookList(View):
+
+    def get(self, request, type, slug):
+        model = MODEL_MAP.get(type.lower())
+        if not model:
+            raise Http404("Type not found")
+
+        obj = get_object_or_404(model, slug=slug)
+
+        context = {
+            'title': obj,
+            'content': obj,
+        }
+
+        return render(request, template_name='catalog/book_list.html', context=context)
