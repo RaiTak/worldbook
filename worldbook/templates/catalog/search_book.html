@@ -1,0 +1,12 @@
+{% extends 'catalog/catalog.html' %}
+
+{% block content %}
+<ul>
+    {% for book in content %}
+        <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
+        <img src="{{ book.image.url }}" alt="Обложка книги">
+    {% empty %}
+        <p>Книги не найдены.</p>
+    {% endfor %}
+</ul>
+{% endblock %}

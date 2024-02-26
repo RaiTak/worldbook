@@ -1,7 +1,16 @@
 {% extends 'main/base.html' %}
 
 
+{% block seacrh %}
+<form action="{% url 'catalog:search' %}" method="get">
+    <input type="text" name="q" placeholder="Поиск...">
+    <button type="submit">Поиск</button>
+</form>
+<hr>
+{% endblock %}
+
 {% block content %}
+
 <form method="get">
     {{ filter.form.as_p }}
     <button type="submit">Фильтровать</button>

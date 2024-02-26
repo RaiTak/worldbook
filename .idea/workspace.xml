@@ -4,44 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.01 First Commit">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.02 Create Catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0002_alter_product_category.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/catalog/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/cover_images/Академия_KzssRRf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия_3ocQPY0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия_KzssRRf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия_mvpg9Tq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия_wm07j06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Бандит.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Бандит_2Xswnzg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Вечная_жизнь_Смерти.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Вечная_жизнь_Смерти_PIh9w76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Возле_тьмы._Чужой.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Возле_тьмы._Чужой_N4m7kf7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Война_старика.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Война_старика_xOkN2CP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Господин_мертвец._Том_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Господин_мертвец._Том_1_fZbidae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Давайте_все_убьем_Констанцию.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Давайте_все_убьем_Констанцию_64EI1ah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Двери_во_тьме.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Двери_во_тьме_YoECZCc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Девушка_с_татуировкой_дракона.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Девушка_с_татуировкой_дракона_q5cSVjg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Десять_негритят.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Десять_негритят_JIfZPYR.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/book_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/list_category.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/main/base.html" afterDir="false" />
     </list>
@@ -79,7 +48,7 @@
     &quot;Python.ZapuskWB.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/project/worldbook&quot;
   }
 }</component>
@@ -140,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708420789223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.02 Create Catalog">
+      <option name="closed" value="true" />
+      <created>1708966359484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708966359484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.01 First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.01 First Commit" />
+    <MESSAGE value="0.02 Create Catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.02 Create Catalog" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from catalog.models import Category, Book, Genre, Tag, Author
-from .utils import BookFilter
+from .utils import BookFilter, search_book
 from django.views import View
 from django.http import Http404
 
@@ -52,3 +52,17 @@ class BookList(View):
         }
 
         return render(request, template_name='catalog/book_list.html', context=context)
+
+
+def search(request):
+    query = request.GET.get('q')
+    if query:
+        results = search_book(query)
+    else:
+        results = Book.objects.none()
+
+    context = {
+        'title': 'Поиск',
+        'content': results
+    }
+    return render(request, template_name='catalog/search_book.html', context=context)
