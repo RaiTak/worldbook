@@ -13,10 +13,12 @@
     {{ content.biography }}
 
     <h2>Книги</h2>
-    {% if content.books.all %}
-        {% for book in content.books.all %}
+    {% if books %}
+        {% for book in books %}
             <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
-            <img src="{{ book.image.url }}">
+            {% if book.image %}
+                <img src="{{ book.image.url }}" alt="{{ book.title }}">
+            {% endif %}
         {% endfor %}
     {% else %}
         <p>Книги не указаны</p>
@@ -34,11 +36,11 @@
     {{ content.description }}
 
     <h2>Книги</h2>
-    {% if content.books.all %}
-        {% for book in content.books.all %}
+    {% if books %}
+        {% for book in books %}
             <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
             {% if book.image %}
-                <img src="{{ book.image.url }}">
+                <img src="{{ book.image.url }}" alt="{{ book.title }}">
             {% endif %}
         {% endfor %}
     {% else %}

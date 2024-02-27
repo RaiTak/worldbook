@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import DetailView, ListView
 from catalog.models import Category, Book, Genre, Tag, Author
 from .utils import BookFilter, search_book
 from django.views import View
@@ -13,56 +14,79 @@ MODEL_MAP = {
     }
 
 
-def catalog(request):
-    book_filter = BookFilter(request.GET, queryset=Book.objects.all())
+class CatalogView(ListView):
+    model = Book
+    template_name = 'catalog/catalog.html'
+    context_object_name = 'books'
+    paginate_by = 10
 
-    context = {
-        'title': 'Каталог',
-        'filter': book_filter,
-    }
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        self.filter = BookFilter(self.request.GET, queryset=queryset)
+        return self.filter.qs
 
-    return render(request, template_name='catalog/catalog.html', context=context)
-
-
-def book(request, book_slug):
-    book = Book.objects.get(slug=book_slug)
-    cat_selected = book.category.slug
-
-    context = {
-        'title': book.name,
-        'book': book,
-        'cat_selected': cat_selected,
-    }
-
-    return render(request, template_name='catalog/product.html', context=context)
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['filter'] = self.filter
+        return context
 
 
-class BookList(View):
+class BookListView(ListView):
+    model = Book
+    template_name = 'catalog/book_list.html'
+    context_object_name = 'books'
+    paginate_by = 3
 
-    def get(self, request, type, slug):
-        model = MODEL_MAP.get(type.lower())
+    def get_queryset(self):
+        type = self.kwargs.get('type').lower()
+        slug = self.kwargs.get('slug')
+
+        model = MODEL_MAP.get(type)
         if not model:
             raise Http404("Type not found")
 
         obj = get_object_or_404(model, slug=slug)
 
-        context = {
-            'title': obj,
-            'content': obj,
-        }
-
-        return render(request, template_name='catalog/book_list.html', context=context)
+        return obj.books.all()
 
 
-def search(request):
-    query = request.GET.get('q')
-    if query:
-        results = search_book(query)
-    else:
-        results = Book.objects.none()
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        type = self.kwargs.get('type').lower()
+        slug = self.kwargs.get('slug')
+        model = MODEL_MAP.get(type)
+        obj = get_object_or_404(model, slug=slug)
+        context['content'] = obj
+        return context
 
-    context = {
-        'title': 'Поиск',
-        'content': results
-    }
-    return render(request, template_name='catalog/search_book.html', context=context)
+
+class BookDetailView(DetailView):
+    model = Book
+    template_name = 'catalog/product.html'
+    context_object_name = 'book'
+    slug_url_kwarg = 'book_slug'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = self.object.name
+        return context
+
+
+class BookSearchView(ListView):
+    model = Book
+    template_name = 'catalog/search_book.html'
+    context_object_name = 'content'
+    paginate_by = 1
+
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query:
+            results = search_book(query)
+        else:
+            results = Book.objects.none()
+        return results
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Поиск'
+        return context
