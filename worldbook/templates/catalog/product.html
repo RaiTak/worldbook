@@ -12,7 +12,7 @@
     <h2>Характеристики</h2>
     Год издания: {{ book.year }}
 
-    {% if book.authors.all %}
+    {% if book.authors %}
         <p>Автор:
             {% for author in book.authors.all %}
                 <a href="{{ author.get_absolute_url }}">{{ author }}</a>{% if not forloop.last %}, {% endif %}
@@ -24,7 +24,7 @@
 
     <p>Категория: <a href="{{ book.category.get_absolute_url }}">{{ book.category }}</a></p>
 
-    {% if book.genre.all %}
+    {% if book.genre %}
         <p>Жанры:
             {% for genre in book.genre.all %}
                 <a href="{{ genre.get_absolute_url }}">{{ genre }}</a>{% if not forloop.last %}, {% endif %}
@@ -34,7 +34,7 @@
         <p>Жанры не указаны</p>
     {% endif %}
 
-    {% if book.tags.all %}
+    {% if book.tags %}
         <p>Тэги:
             {% for tag in book.tags.all %}
                 <a href="{{ tag.get_absolute_url }}">{{ tag }}</a>{% if not forloop.last %}, {% endif %}

@@ -1,8 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.db.models import Prefetch
+from django.shortcuts import get_object_or_404
 from django.views.generic import DetailView, ListView
 from catalog.models import Category, Book, Genre, Tag, Author
 from .utils import BookFilter, search_book
-from django.views import View
 from django.http import Http404
 
 
@@ -45,7 +45,9 @@ class BookListView(ListView):
         if not model:
             raise Http404("Type not found")
 
-        obj = get_object_or_404(model, slug=slug)
+        obj = get_object_or_404(model.objects.prefetch_related(
+            Prefetch('books', queryset=Book.objects.all())
+        ), slug=slug)
 
         return obj.books.all()
 
@@ -57,6 +59,7 @@ class BookListView(ListView):
         model = MODEL_MAP.get(type)
         obj = get_object_or_404(model, slug=slug)
         context['content'] = obj
+        context['title'] = obj
         return context
 
 

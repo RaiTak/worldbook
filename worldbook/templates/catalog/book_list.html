@@ -15,7 +15,7 @@
     <h2>Книги</h2>
     {% if books %}
         {% for book in books %}
-            <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
+            <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
             {% if book.image %}
                 <img src="{{ book.image.url }}" alt="{{ book.title }}">
             {% endif %}
@@ -38,7 +38,7 @@
     <h2>Книги</h2>
     {% if books %}
         {% for book in books %}
-            <p><a href="{{ book.get_absolute_url }}">{{ book }}</a></p>
+            <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
             {% if book.image %}
                 <img src="{{ book.image.url }}" alt="{{ book.title }}">
             {% endif %}
