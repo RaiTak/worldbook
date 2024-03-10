@@ -9,6 +9,7 @@
 <hr>
 {% endblock %}
 
+
 {% block content %}
 <form method="get">
     {{ filter.form.as_p }}
@@ -26,6 +27,7 @@
     {% endfor %}
 </ul>
 {% endblock %}
+
 
 {% block paginator %}
 {% if page_obj.has_other_pages %}

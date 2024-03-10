@@ -1,7 +1,6 @@
 {% extends 'catalog/catalog.html' %}
 
 {% block content %}
-
 {% if content.get_type == 'Author' %}
     <h1>{{ content }}</h1>
 
@@ -47,5 +46,4 @@
         <p>Книги не указаны</p>
     {% endif %}
 {% endif %}
-
 {% endblock %}

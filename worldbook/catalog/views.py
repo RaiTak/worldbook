@@ -19,6 +19,9 @@ class CatalogView(ListView):
     template_name = 'catalog/catalog.html'
     context_object_name = 'books'
     paginate_by = 10
+    extra_context = {
+        'title': 'Каталог',
+    }
 
     def get_queryset(self):
         queryset = super().get_queryset()
