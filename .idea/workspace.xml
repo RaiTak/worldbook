@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.05 Fix Paginator">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.06 Fix Create apps Users and login, logout, register, profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0002_alter_book_authors_alter_book_genre_alter_book_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0003_alter_tag_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/catalog/migrations/0004_remove_author_date_of_birth_and_more.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/main/templatetags/category_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/search_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/search_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +27,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,15 +72,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/project/worldbook&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/project/worldbook/worldbook/media/users&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\media\users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\media" />
+      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\users\media\users" />
+      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\users\media\users\profile" />
+      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\users\media" />
       <recent name="C:\Users\user\Documents\project\worldbook\worldbook\catalog" />
-      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\main" />
-      <recent name="C:\Users\user\Documents\project\worldbook\worldbook" />
-      <recent name="C:\Users\user\Documents\project\worldbook\worldbook\media\cover_images" />
     </key>
   </component>
   <component name="RunManager">

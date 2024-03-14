@@ -1,0 +1,3037 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-02-22T08:32:34.192Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Айзек Азимов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-02-22T08:35:31.014Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Андрей Круз",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-02-22T08:38:27.776Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Лю Цысинь",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-02-22T08:41:11.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Мария Круз",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-02-22T13:33:56.251Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Джон Скальци",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-02-22T13:35:38.618Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Константин Соловьев",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-02-22T13:39:31.127Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Рэй Брэдбери",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-02-22T13:42:51.156Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Стиг Ларссон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-02-22T13:48:28.029Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Кристи Агата",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-02-22T13:49:22.659Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Максим Макаренков",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-02-22T13:51:03.653Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Кора Клеменс",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-02-22T13:52:00.291Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Андрей Коротаев",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-02-22T13:52:32.533Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Джеймс Кори",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-02-22T13:53:16.158Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Ярослав Калфарж",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-02-22T13:54:13.489Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Ким Стэнли Робинсон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-02-22T13:55:16.580Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Уилки Коллинз",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-02-22T13:55:58.726Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Крис Хэдфилд",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-02-22T13:57:08.139Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Деннис Тейлор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-02-22T13:57:37.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Трэвис Коркоран",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-02-22T13:58:16.300Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Артур Конан Дойл",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-02-22T14:00:24.403Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Константин Образцов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-02-22T14:01:09.812Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Гилберт Кит Честертон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-02-22T14:01:45.789Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Эдгар Аллан По",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-02-22T14:03:04.418Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Вадим Панов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-02-22T14:31:47.260Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Научная фантастика:",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-02-22T14:31:53.508Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Научная фантастика",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-02-22T14:34:39.264Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Детективы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-02-22T14:36:44.943Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Триллеры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-02-22T14:38:57.579Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Мистика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-02-22T14:41:11.579Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Ужасы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-02-22T14:45:27.096Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Приключения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-02-22T14:47:56.625Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Фэнтези",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-02-22T14:51:53.051Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Классический детектив",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-02-22T14:54:45.893Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Современная проза",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-02-22T15:00:09.100Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Постапокалиптика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-02-22T15:49:17.089Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Художественная литература",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-02-22T16:08:48.600Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Космос",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-02-22T16:13:20.554Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Искусственный интеллект",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-02-22T16:17:43.822Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Военная фантастика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-02-22T16:19:39.114Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Межзвездные конфликты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-02-22T16:22:09.267Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Личностный кризис",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-02-22T16:25:52.601Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Политическая фантастика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-02-22T16:28:09.544Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Выживание",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-02-22T16:36:37.899Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Клонирование",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-02-22T16:42:14.551Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Постапокалипсис",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-02-22T16:45:23.626Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Криминал",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-02-22T16:59:55.118Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Мистерия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-02-22T17:08:50.462Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Исследования",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-02-22T17:10:30.236Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Классика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-02-22T17:13:41.703Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Магия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-02-22T17:22:34.790Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Академия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-02-23T08:59:31.232Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Академия",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL-\\u0430\\u0434\\u0440\\u0435\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-02-23T09:10:50.977Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Бандит",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-02-23T09:17:44.459Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Философия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-02-23T09:19:06.766Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Вечная жизнь Смерти",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-02-23T09:25:26.158Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Возле тьмы: Чужой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-02-23T09:32:08.359Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Война старика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-02-23T09:36:26.591Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Тайные общества",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-02-23T09:37:09.656Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Господин мертвец. Том 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-02-23T09:44:38.423Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Психологический ужас",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-02-23T09:45:19.622Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Давайте все убьем Констанцию",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-02-23T09:51:15.550Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Двери во тьме",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-02-23T10:05:25.815Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Давайте все убьем Констанцию",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-02-23T10:42:53.458Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Девушка с татуировкой дракона",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-02-23T10:48:55.886Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Десять негритят",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-02-23T10:53:01.650Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Дни стужи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-02-23T11:03:56.753Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Загадка Эндхауза",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-02-23T11:08:41.675Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Звонок из Мемфис",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-02-23T11:11:06.181Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Игры Немезиды",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-02-23T11:17:52.087Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Космонавт из Богемии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-02-23T11:20:52.269Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Красная Луна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-02-23T11:23:32.516Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Лунный камень",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-02-23T11:26:07.700Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Орбита смерти",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-02-23T11:28:19.874Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Потому что нас много",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-02-23T11:30:16.180Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "Причины отделения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-02-23T11:33:35.171Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "21",
+    "object_repr": "Рассказы о Шерлоке Холмсе",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-02-23T11:35:50.495Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "Смерть - дело одинокое",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-02-23T11:41:49.709Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "23",
+    "object_repr": "Странники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-02-23T11:45:46.649Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "24",
+    "object_repr": "Сумерки Бога, или Кухонные астронавты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-02-23T11:47:34.756Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "25",
+    "object_repr": "Тайна отца Брауна",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-02-23T11:49:51.861Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "26",
+    "object_repr": "Убийство на улице Морг",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-02-23T11:52:29.066Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "27",
+    "object_repr": "Чужие игры Противостояние",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-03-09T17:06:25.865Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "user1@",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-03-09T17:06:25.876Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "user2@",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-03-10T11:25:33.350Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "albina@",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-03-10T11:25:33.357Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "user1@",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Автор",
+    "content_type": 7,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Автор",
+    "content_type": 7,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Автор",
+    "content_type": 7,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Автор",
+    "content_type": 7,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Категория",
+    "content_type": 8,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Категория",
+    "content_type": 8,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Категория",
+    "content_type": 8,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Категория",
+    "content_type": 8,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Жанр",
+    "content_type": 9,
+    "codename": "add_genre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Жанр",
+    "content_type": 9,
+    "codename": "change_genre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Жанр",
+    "content_type": 9,
+    "codename": "delete_genre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Жанр",
+    "content_type": 9,
+    "codename": "view_genre"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 10,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 10,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 10,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 10,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Книга",
+    "content_type": 11,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Книга",
+    "content_type": 11,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Книга",
+    "content_type": 11,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Книга",
+    "content_type": 11,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Social Auth",
+    "content_type": 12,
+    "codename": "social_auth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "catalog",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "catalog",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "catalog",
+    "model": "genre"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "catalog",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "catalog",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1yyp4kd4xci6ary9awebtbsu47nrhrve",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSG8KS7d9xvIhQtSNZCUdmX8d2nShWZ2c87Mm3jYt-L3nla_ILkSTi6_XYD4TPUA-IB6bzS2uq1LoIdCT9rp3DC9bqf7d1Cgl7EWkuk8RSF1TgayVNwwxcC47CwGwzDxQSKGKB1aphRObMSIZJ3QQZHPF9iBN3k:1rklJx:pgURvO6Em1I2KatG0sVezfV1GaaDg4GryYXQcOY0uec",
+    "expire_date": "2024-03-28T13:40:33.319Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6n63zp1hyy58v6nini7y5jjcsyiw4504",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHMQEFcuvcbCI8ZqRqalHZl_HfbpAvd3nPOfYsQ16WGtdMcxiIuAsTpd0sxP6ntoDxiu08yT22ZxyR3RR60y9tU6HU93L-DGnvdakQ9aJORBiBvC3tWObusChQ-s7aKlNbRJsJkIQFoZ4xBRsdxQx7F5wvchTeJ:1rcpvj:MOzb_9x7mXKrn58Pwsfw3S64a-2PKRyNna363XrL2fI",
+    "expire_date": "2024-03-06T16:58:47.459Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ku3qgsjgj1fkiqlpjffhvczcynk6q3qv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHMQEFcuvcbCI8ZqRqalHZl_HfbpAvd3nPOfYsQ16WGtdMcxiIuAsTpd0sxP6ntoDxiu08yT22ZxyR3RR60y9tU6HU93L-DGnvdakQ9aJORBiBvC3tWObusChQ-s7aKlNbRJsJkIQFoZ4xBRsdxQx7F5wvchTeJ:1rdoz2:xUS1P61BnF4in_CaOV2kd5PEIKwMmf9aWXyxOidtMiI",
+    "expire_date": "2024-03-09T10:10:16.973Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Художественная литература",
+    "slug": "hudozhestvennaya-literatura",
+    "description": "Художественная литература — это жанр, который включает в себя произведения, созданные с целью эстетического и интеллектуального удовольствия, а не только для передачи информации или фактов. Этот жанр воплощает в себе воображение автора и предназначен для вызова эмоционального, психологического или интеллектуального реагирования у читателя. Художественная литература может охватывать широкий спектр жанров, включая романы, рассказы, поэзию, драму и многое другое, и она противопоставляется нехудожественной литературе, которая фокусируется на представлении фактической, образовательной или научной информации.\r\n\r\nОсновные характеристики:\r\nВымышленные элементы: Хотя художественная литература может включать в себя реальные места, персонажей или события, основой её является вымышленный нарратив.\r\nЭстетическая и эмоциональная насыщенность: Произведения художественной литературы часто направлены на вызов эмоций и размышлений, а также на эстетическое удовольствие читателя.\r\nЯзыковое мастерство: Язык и стиль написания имеют особое значение, с авторами, использующими литературные приёмы, такие как метафоры, аллегории, символизм и другие стилистические элементы для углубления смысла и добавления слоёв интерпретации.\r\nРазнообразие жанров: Включает в себя множество поджанров, таких как романтика, научная фантастика, фэнтези, детективы, триллеры, историческая литература и многие другие.\r\nРазработка персонажей: Персонажи в художественной литературе часто детально проработаны, с комплексными личностями, мотивациями и развитием в течение сюжета.\r\nФункции и значение:\r\nРазвлечение: Одна из основных функций художественной литературы — развлекать читателя, предоставляя ему увлекательный сюжет и интересные персонажи.\r\nОбразование: Через художественные произведения читатели могут узнать о различных культурах, исторических периодах, философских идеях и социальных вопросах.\r\nПсихологический анализ: Литература позволяет исследовать глубины человеческой психики, эмоциональные переживания и моральные дилеммы.\r\nКритика и рефлексия: Через художественную литературу авторы могут комментировать социальные, политические и культурные явления, стимулируя читателя к размышлениям и саморефлексии.\r\nЭстетическое наслаждение: Красота языка, оригинальность метафор и уникальность сюжета могут доставлять чисто эстетическое удовольствие.\r\nХудожественная литература играет важную роль в культуре и обществе, способствуя развитию воображения, эмпатии и критического мышления, а также предоставляя бесценное эстетическое и интеллектуальное удовольствие читателям по всему миру.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Научная фантастика",
+    "slug": "nauchnaya-fantastika",
+    "description": "Научная фантастика — это жанр литературы, кино, комиксов и видеоигр, который основывается на предположениях о будущем, основанных на научных достижениях, технологическом прогрессе, космических путешествиях, параллельных мирах и экзотических формах жизни. Он исследует возможные будущие или альтернативные реальности, часто затрагивая социальные, этические и моральные вопросы, которые могут возникнуть в результате научного и технологического развития.\r\n\r\nОсновные характеристики\r\nНаучно-техническая основа: Научная фантастика строится на теориях и понимании современной науки, включая физику, астрономию, биологию и инженерию. Элементы сюжета часто включают передовые технологии, космические путешествия, искусственный интеллект и прочее, которые могут быть вымышленными, но тем не менее имеют научное обоснование.\r\nИсследование будущего: Жанр часто исследует, как могут развиваться человечество и общество в будущем, учитывая технологические инновации и изменения в социальной структуре.\r\nСоциальные темы: Многие произведения научной фантастики исследуют социальные, политические и философские темы, представляя различные модели общественного устройства и взаимодействия между людьми и технологиями.\r\nФантастические элементы: Включение элементов, которые на текущий момент кажутся невозможными или фантастическими, но которые могут быть представлены как достижимые в будущем благодаря научному прогрессу.\r\nРазнообразие жанров: Научная фантастика может сочетаться с другими жанрами, такими как фэнтези, ужасы, детектив и романтика, создавая уникальные и многослойные рассказы.\r\nИзвестные авторы и произведения\r\nАйзек Азимов: Один из величайших писателей научной фантастики, известный своей серией книг о Роботах и «Фондом».\r\nАртур Кларк: Автор «2001: Космическая одиссея» и множества других влиятельных произведений.\r\nФилип К. Дик: Известен своими философскими и психологическими рассказами о природе реальности, включая «Мечтают ли андроиды об электроовцах?», послуживший основой для фильма «Бегущий по лезвию».\r\nУрсула Ле Гуин: Примечательна своими работами, исследующими альтернативные формы общественного устройства, в том числе «Левая рука тьмы».\r\nЗначение и влияние\r\nНаучная фантастика не только развлекает, но и стимулирует воображение, побуждает задуматься о будущем и влияет на научные исследования и разработки. Многие современные технологии, такие как мобильные телефоны и интернет, когда-то появились в научно-фантастических произведениях как фантастические идеи. Жанр продолжает вдохновлять ученых, инженеров и изобретателей на создание новых технологий и исследование неизведанных областей науки.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Детективы",
+    "slug": "detektivy",
+    "description": "Детектив — это жанр литературы, кино, телевидения и радиоспектаклей, сосредоточенный на расследовании преступлений и разгадывании загадок. Часто сюжет строится вокруг убийства или другого серьёзного преступления, которое должен решить детектив, будь то профессиональный следователь, частный детектив или просто человек со способностями к наблюдению и логическому мышлению. Детективный жанр имеет множество поджанров, каждый из которых предлагает свой уникальный подход к разгадыванию тайн.\r\n\r\nОсновные характеристики\r\nЗагадка: Центральный элемент детектива — это загадка, часто связанная с преступлением, которое необходимо решить. Это ставит перед читателем или зрителем вызов попытаться разгадать её до того, как это сделает детектив в истории.\r\nРасследование: Процесс расследования является ключевым элементом сюжета, включающим сбор улик, допросы свидетелей и подозреваемых, а также анализ и интерпретацию фактов.\r\nДетектив: В центре сюжета обычно находится детектив или расследователь, который использует свой интеллект, навыки наблюдения и знание человеческой психологии для решения загадки.\r\nПовороты сюжета: Детективные истории часто содержат неожиданные повороты и обманные тропы, чтобы держать интерес читателя и создавать напряжение.\r\nРазгадка: Кульминация детективного сюжета — это обычно разгадка, где детектив объясняет, как было совершено преступление и кто его совершил, часто собирая всех ключевых персонажей вместе для разоблачения.\r\nПоджанры\r\nКлассический детектив: Сосредоточен на интеллектуальном расследовании, часто с минимальным насилием и акцентом на загадке. Примеры включают работы Агаты Кристи и Артура Конана Дойла.\r\nТвердый боилд (Hardboiled): Более жесткий и циничный подход к жанру, часто с упором на насилие и секс. Примеры включают работы Раймонда Чандлера и Дашила Хэмметта.\r\nПолицейская процедура: Сосредоточение на реалистичном изображении полицейской работы, включая детальное следование процедурам расследования. Примеры включают «Law & Order» и книги Эд Макбейна.\r\nКоэффициентная фантастика: Смешение детектива с элементами научной фантастики или фэнтези. Примеры включают «Риверса из Лондона» Бена Аароновича.\r\nПсихологический триллер: Сосредотачивается на психологии персонажей, часто исследуя тёмные стороны человеческой натуры. Примеры включают работы Гиллиан Флинн и Патриции Хайсмит.\r\nЗначение и влияние\r\nДетективный жанр оказал значительное влияние на литературу, кинематограф и телевидение, предлагая зрителям и читателям уникальный способ взаимодействия с текстом или сюжетом через попытки предугадать разгадку. Он также позволяет авторам исследовать различные социальные, психологические и моральные вопросы, делая его не только источником развлечения, но и средством для более глубокого понимания человеческой природы и общества.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Триллеры",
+    "slug": "trillery",
+    "description": "Триллер — это жанр, который стремится вызвать у зрителя или читателя сильные эмоции напряжения, волнения, тревоги и ожидания. Характеризуется захватывающим сюжетом, который удерживает внимание аудитории от начала до конца. Триллеры могут пересекаться с множеством других жанров, включая детективы, драмы, научную фантастику и ужасы, создавая широкий спектр историй и тем.\r\n\r\nОсновные характеристики\r\nИнтенсивное напряжение: Сюжет строится таким образом, чтобы поддерживать высокий уровень напряжения и неопределенности, часто через постоянно усиливающуюся угрозу или опасность.\r\nДинамичный сюжет: Быстрое развитие событий, частые повороты и неожиданные сюжетные ходы держат аудиторию в постоянном напряжении.\r\nКомплексные персонажи: Глубоко проработанные характеры с сложными мотивациями, которые часто оказываются в экстремальных ситуациях, требующих быстрых и решительных действий.\r\nКонфликт: Центральный элемент триллера, конфликт может быть внутренним (персональная борьба главного героя) или внешним (противостояние с антагонистом или природными стихиями).\r\nАтмосфера неопределенности и опасности: Создание ощущения постоянной угрозы или риска для главных персонажей, что поддерживает напряженность на протяжении всей истории.\r\nПоджанры триллера\r\nПсихологический триллер: Сосредоточен на психологии персонажей, их восприятии реальности и внутренних страхах.\r\nКриминальный триллер: Включает элементы криминального мира, где сюжет вращается вокруг преступлений, расследований и противостояния между преступниками и законом.\r\nШпионский триллер: Рассказывает о мире шпионажа, секретных агентов и международных конфликтов.\r\nМедицинский триллер: Сюжеты связаны с медициной, биотехнологиями, эпидемиями, создавая напряжение через угрозу заболеваний или медицинских экспериментов.\r\nТехно-триллер: Сосредоточен на использовании технологий, научных открытий и их потенциально опасных последствиях для человечества.\r\nЗначение и влияние\r\nТриллеры часто исследуют темные стороны человеческой натуры, общественные страхи и актуальные социальные проблемы, предоставляя не только развлечение, но и пищу для размышлений. Жанр пользуется большой популярностью благодаря своей способности вызывать сильные эмоциональные реакции, а также за счет умения держать зрителей и читателей в постоянном напряжении и ожидании развязки. Триллеры могут быть как легкими и занимательными, так и глубоко психологическими, предлагая аудитории широкий диапазон историй и эмоций.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Мистика",
+    "slug": "mistika",
+    "description": "Мистика в литературе и кинематографе — это жанр, который включает элементы таинственности, сверхъестественного и необъяснимого, часто пересекаясь с жанрами ужасов, фэнтези и научной фантастики. Произведения мистики обычно строятся вокруг тем и сюжетов, связанных с паранормальными явлениями, оккультизмом, духовным миром и загадочными событиями, которые выходят за рамки обыденного понимания и научного объяснения.\r\n\r\nОсновные характеристики\r\nСверхъестественные элементы: Мистика часто включает в себя элементы, которые не могут быть объяснены с точки зрения современной науки или логики, такие как привидения, духи, магия, нечистая сила и другие паранормальные явления.\r\nТаинственная атмосфера: Создание загадочной, интригующей атмосферы является ключевым для мистических произведений. Это достигается через описание мрачных, уединенных мест, необычных или тревожных событий и персонажей с тайнами.\r\nИсследование неизведанного: Мистика часто затрагивает темы исследования неизвестного и непознанного, будь то через контакты с другим миром, изучение древних тайн или встречи с необъяснимыми явлениями.\r\nМоральные и философские вопросы: Многие мистические произведения поднимают вопросы о существовании добра и зла, природе человеческой души, смерти и загробной жизни, часто предлагая глубокий философский или моральный подтекст.\r\nЭмоциональное воздействие: Мистические произведения стремятся вызвать у читателя или зрителя сильные эмоции: от страха и тревоги до удивления и восхищения перед неизведанным и загадочным.\r\nПримеры произведений\r\n\"Туман\" Стивена Кинга — рассказ о городе, который окутывает таинственный туман, скрывающий в себе неизвестные и опасные существа.\r\n\"Ведьмак\" Анджея Сапковского — серия книг, сочетающая элементы мистики, фэнтези и приключений, где главный герой сталкивается с магическими существами и древними заклинаниями.\r\n\"Другие\" (фильм, 2001 год) — психологический триллер с элементами мистики, где главная героиня и её дети живут в старинном доме, который, как оказывается, населён привидениями.\r\n\"Твин Пикс\" — культовый телесериал Дэвида Линча, сочетающий в себе детектив, мистику и сюрреализм, исследуя тёмные тайны маленького городка.\r\nЗначение и влияние\r\nМистика как жанр позволяет затрагивать глубокие философские и эзотерические вопросы, исследуя границы человеческого познания и возможности существования за его пределами. Этот жанр открывает простор для фантазии, как для авторов, так и для аудитории, предлагая уникальный взгляд на мир, который может существовать параллельно с нашим или скрываться за повседневной реальностью. Мистические произведения часто оставляют место для интерпретаций и размышлений, заставляя задуматься о вечных вопросах бытия, смерти и сущности духовного мира.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Ужасы",
+    "slug": "uzhasy",
+    "description": "Жанр ужасов в литературе, кино и других формах искусства направлен на вызов страха, тревоги и чувства ужаса у аудитории. Основная цель — эмоционально потрясти зрителя или читателя, заставить его испытать напряжение, страх и ощущение неопределенности. Элементы ужаса часто включают в себя встречу с нечеловеческими существами, призраками, монстрами, а также ситуации экстремального насилия, психологического давления и выживания в экстремальных условиях. Жанр ужасов исследует темные стороны человеческой психики, страхи, существующие в подсознании людей, а также темные и мистические аспекты реальности.\r\n\r\nОсновные характеристики\r\nСтрах и напряжение: Создание атмосферы страха и постоянного напряжения — ключевая задача жанра. Это достигается через неожиданные сюжетные повороты, визуальные и звуковые эффекты в кино, а в литературе — через описания и погружение во внутренний мир персонажей.\r\nСверхъестественные элементы: Часто ужасы включают в себя элементы, выходящие за рамки обыденного мира: призраки, демоны, неизведанные силы и монстры.\r\nИгра на фобиях: Многие произведения ужасов основываются на глубоко укорененных человеческих страхах, таких как страх темноты, смерти, потери контроля или столкновения с неизвестным.\r\nИзоляция и безысходность: Персонажи часто оказываются изолированы от остального мира, сталкиваясь лицом к лицу с ужасающими событиями, что усиливает чувство тревоги и безысходности.\r\nМоральные и философские вопросы: Нередко в ужасах затрагиваются глубокие моральные дилеммы и философские вопросы о природе зла, смерти, существовании души и загробной жизни.\r\nПопулярные примеры\r\n\"Оно\" Стивена Кинга — роман о группе детей, сталкивающихся с космическим злом, принимающим форму клоуна Пеннивайза.\r\n\"Хижина в лесу\" — фильм, который одновременно пародирует и отдает дань классическим ужастикам, раскрывая тему манипуляции реальностью.\r\n\"Проклятие Хилл-хаус\" — как в форме оригинального романа Ширли Джексон, так и в адаптации Netflix, представляет собой психологический ужастик с элементами привидений и семейной драмы.\r\n\"Алиен\" (Чужой) — фильм Ридли Скотта, классика космического ужаса, где экипаж космического корабля сталкивается с кровожадным инопланетным существом.\r\nЗначение и влияние\r\nЖанр ужасов позволяет зрителям и читателям сталкиваться со своими страхами в безопасной обстановке, что может иметь катарсический эффект. Также он предлагает уникальную возможность для исследования темных сторон человеческой натуры, социальных ангстов и культурных табу. Через метафоры и аллегории ужасы часто комментируют актуальные социальные проблемы, страхи и надежды общества, делая жанр не только источником развлечения, но и средством для глубоких размышлений и обсуждений.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Приключения",
+    "slug": "priklyucheniya",
+    "description": "Жанр приключений занимает особое место в литературе, кино и других формах искусства, предлагая аудитории захватывающие истории, полные экшена, открытий, путешествий и испытаний. Этот жанр ценится за его способность вдохновлять, развлекать и поднимать настроение, предлагая побег от реальности и возможность мечтать о далеких странах, неизведанных территориях и героических подвигах.\r\n\r\nОсновные характеристики\r\nПутешествия и экспедиции: Центральным элементом приключенческих произведений являются путешествия в экзотические, часто опасные места, где главные герои сталкиваются с различными препятствиями и испытаниями.\r\nГероические персонажи: В приключенческих историях часто присутствуют яркие, харизматичные персонажи, которые обладают необычными способностями, умом, мужеством и решимостью преодолевать трудности.\r\nПоиск и открытие: Многие приключения строятся вокруг поиска сокровищ, спасения людей, разгадывания тайн и открытия новых знаний, которые изменяют жизнь героев.\r\nБорьба добра со злом: В приключенческих историях часто прослеживается конфликт между добрыми и злыми силами, где герои должны противостоять врагам и препятствиям, чтобы достичь своей цели.\r\nДинамичный сюжет: Сюжеты приключенческих произведений обычно наполнены динамикой, неожиданными поворотами и активными действиями, которые поддерживают интерес и вовлеченность аудитории.\r\nПримеры произведений\r\n\"Остров сокровищ\" Роберта Льюиса Стивенсона — классический роман о пиратах, сокровищах и морских приключениях.\r\n\"Индиана Джонс\" — серия фильмов о археологе-приключенце, исследующем древние руины и разгадывающем исторические тайны.\r\n\"Гарри Поттер\" Дж. К. Роулинг — серия книг о юном волшебнике, его обучении в Хогвартсе и борьбе с темным магом Волдемортом.\r\n\"Парк Юрского периода\" Майкла Крайтона — научно-фантастический роман о клонировании динозавров и парке развлечений, где они становятся главной аттракцией.\r\nЗначение и влияние\r\nЖанр приключений имеет большое значение для культуры и искусства, так как он воспевает любознательность, мужество, дружбу и настойчивость. Приключенческие истории мотивируют читателей и зрителей искать в своей жизни приключения, учат преодолевать трудности и ценить красоту открытий. Кроме того, этот жанр способствует расширению кругозора, знакомя аудиторию с различными культурами, историческими эпохами и научными достижениями. Приключения часто служат источником вдохновения для творчества, исследований и саморазвития, делая их неотъемлемой частью мировой культурной традиции.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Фэнтези",
+    "slug": "fentezi",
+    "description": "Фэнтези — это жанр литературы, кино, видеоигр и других видов искусства, который включает в себя использование магии, сверхъестественных сил и часто — существ, миров и цивилизаций, не существующих в реальной жизни. Фэнтези предлагает погружение в вымышленные вселенные, где возможно все, что угодно, от великих битв между добром и злом до детально проработанных приключений в мирах, где магия является частью повседневной жизни.\r\n\r\nОсновные характеристики\r\nМагические элементы: Наличие магии является одной из ключевых особенностей фэнтези. Это может быть как традиционная магия, так и уникальные магические системы, разработанные автором.\r\nВымышленные миры: Большинство фэнтези происходит в полностью вымышленных мирах с собственной географией, историей и культурой. Эти миры могут напоминать исторические эпохи Земли или быть полностью оригинальными созданиями.\r\nМифологические и сверхъестественные существа: Драконы, эльфы, тролли, ведьмы и многие другие существа часто населяют миры фэнтези, играя важные роли в сюжете.\r\nЭпические сюжеты: Многие фэнтези рассказывают о грандиозных приключениях, эпических сражениях между добром и злом, судьбах целых миров и народов.\r\nГероизм и развитие персонажа: Персонажи в фэнтези часто проходят значительное внутреннее развитие, преодолевая препятствия и учась на своих ошибках.\r\nПримеры произведений\r\n\"Властелин колец\" Дж. Р. Р. Толкина — эпическая история о борьбе за Кольцо Всевластия, которое может определить судьбу Средиземья.\r\n\"Игра престолов\" (Цикл \"Песнь Льда и Огня\") Джорджа Р. Р. Мартина — серия книг, объединяющая жестокие политические интриги и магические элементы в борьбе за Железный трон Вестероса.\r\n\"Гарри Поттер\" Дж. К. Роулинг — серия книг о мальчике-волшебнике, его обучении в школе магии Хогвартс и борьбе с темным магом Волдемортом.\r\n\"Хроники Нарнии\" К. С. Льюиса — серия книг для детей, повествующая о приключениях в волшебной стране Нарния, где животные умеют говорить, а добро борется со злом.\r\nЗначение и влияние\r\nФэнтези играет важную роль в современной культуре, предлагая аудитории возможность побега от реальности и погружения в миры, где правила ограничены только воображением автора. Этот жанр стимулирует воображение, развивает творческое мышление и помогает читателям и зрителям исследовать важные жизненные темы (такие как дружба, любовь, жертвенность, борьба с несправедливостью) в условиях, отличных от их повседневного опыта. Фэнтези также способствует развитию эмпатии, позволяя зрителям и читателям переживать судьбы персонажей, находящихся в совершенно иных обстоятельствах.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Классический детектив",
+    "slug": "klassicheskij-detektiv",
+    "description": "Классический детектив — это поджанр литературы детективов, оформившийся в начале XX века и достигший пика популярности в 1920-30-е годы. Этот жанр характеризуется строгим следованием определённым конвенциям, включая наличие тайны (часто убийства), закрытого круга подозреваемых, дедуктивного метода расследования и неожиданного развязывания. Классические детективы часто фокусируются на интеллектуальном аспекте разгадывания преступления, а не на действии или насилии.\r\n\r\nОсновные характеристики\r\nЗакрытое пространство: Преступление часто происходит в изолированной среде (например, в загородном доме, на борту корабля), что создаёт закрытый круг подозреваемых.\r\nДедуктивный метод: Расследование ведётся через сбор улик, анализ свидетельств и логическое мышление, чтобы разгадать тайну.\r\nДетектив-любитель или профессиональный сыщик: В центре сюжета обычно находится харизматичный детектив, который может быть как профессионалом (например, полицейским детективом), так и любителем.\r\nСюрпризный поворот и развязка: История обычно заканчивается неожиданным образом, когда детектив раскрывает преступника, часто в сцене, где собираются все персонажи.\r\nПримеры произведений и авторов\r\nАртур Конан Дойл и его рассказы и романы о Шерлоке Холмсе, где лондонский \"консультирующий детектив\" решает сложные дела с помощью своего метода дедукции.\r\nАгата Кристи, чьи работы, включая романы о Эркюле Пуаро и мисс Марпл, стали каноническими образцами классического детектива.\r\nДороти Л. Сейерс, создавшая серию книг о лорде Питере Уимси, джентльмене-детективе из высшего общества.\r\nРекс Стаут, автор серии книг о Ниро Вульфе, гениальном детективе, решающем преступления, не выходя из своего дома в Нью-Йорке.\r\nЗначение и влияние\r\nКлассический детектив оставил значительный след в культуре и продолжает влиять на современные произведения в жанре детектива и криминального триллера. Этот жанр не только развлекает читателя, но и стимулирует его умственную активность, предлагая следовать за детективом и самостоятельно пытаться разгадать тайну до того, как будет представлено решение. Классические детективы также исследуют человеческую натуру, мотивы преступлений и социальные взаимодействия, что делает их интересными не только как головоломки, но и как исследование общества.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Современная проза",
+    "slug": "sovremennaya-proza",
+    "description": "Современная проза — это широкий литературный жанр, охватывающий произведения, написанные в последние десятилетия и отражающие современную жизнь, её проблемы, идеи и поиски. Этот жанр не ограничивается строгими рамками и часто перекликается с другими жанрами, такими как реализм, постмодернизм, магический реализм и другие, включая эксперименты с формой и содержанием. Современная проза исследует разнообразие человеческих отношений, социальные и культурные изменения, внутренний мир персонажей и влияние глобализации на общество.\r\n\r\nОсновные характеристики\r\nТематическое разнообразие: Современная проза затрагивает широкий спектр тем — от личных исследований идентичности до глобальных социально-политических вопросов.\r\nСтилевое разнообразие: Авторы экспериментируют с языком, структурой и формой рассказа, используя нелинейные повествования, множественные точки зрения и другие техники.\r\nРефлексия современности: Произведения часто отражают современные социальные, политические и культурные реалии, включая вопросы миграции, экологии, гендерной идентичности и технологических изменений.\r\nФокус на персонажах: Глубокое психологическое развитие персонажей, исследование их внутреннего мира, мотиваций и эмоций.\r\nМежкультурный диалог: В современной прозе часто присутствует обмен идей и взглядов между различными культурами, что отражает глобализированный мир.\r\nПримеры произведений и авторов\r\n\"Очень громкая и невероятно близкая\" Джонатана Сафрана Фоера — рассказ о мальчике, исследующем Нью-Йорк в поисках замка для ключа, оставленного его отцом, погибшим 11 сентября.\r\n\"1Q84\" Харуки Мураками — амбициозный роман, сочетающий реальность и фантастику, исследуя темы любви, одиночества и насилия на фоне альтернативной истории Японии 1984 года.\r\n\"Остаток дня\" Кадзуо Исигуро — рассказ о жизни английского дворецкого, исследующий темы достоинства, политики и неосуществленной любви на фоне межвоенного периода и послевоенной Англии.\r\n\"Белый зуб\" Зэди Смит — роман о современном Лондоне, его жителях и их переплетающихся судьбах, исследуя вопросы расы, класса и глобализации.\r\nЗначение и влияние\r\nСовременная проза оказывает значительное влияние на культурное и интеллектуальное развитие общества, стимулируя дискуссии о важных идеях и социальных вопросах. Она помогает читателям лучше понять себя и мир вокруг них, предоставляя разнообразные перспективы на жизнь в современном мире. Этот жанр также способствует эмпатии и взаимопониманию между людьми разного происхождения и культур, отражая универсальность человеческого опыта.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Постапокалиптика",
+    "slug": "postapokaliptika",
+    "description": "Постапокалиптика — это жанр литературы, кино и видеоигр, описывающий мир после катастрофического события, которое радикально изменило цивилизацию на Земле. Это событие может быть ядерной войной, пандемией, природной катастрофой, восстанием машин, внеземным вторжением или любой другой глобальной катастрофой. Жанр сосредотачивается на выживании оставшихся в живых людей и их попытках восстановить или сохранить остатки человеческой цивилизации.\r\n\r\nОсновные характеристики\r\nВыживание: Главная тема большинства постапокалиптических произведений — борьба за выживание в условиях, кардинально изменившихся после катастрофы.\r\nРазрушенный мир: Описания разрушенных городов, заброшенной инфраструктуры, загрязнённой среды и изменённых климатических условий являются обычным делом для постапокалиптического нарратива.\r\nМоральные дилеммы: Персонажи часто сталкиваются с тяжёлыми моральными выборами в борьбе за выживание, что поднимает вопросы о природе человечности и морали.\r\nИзоляция и одиночество: Многие истории исследуют темы одиночества и изоляции, когда персонажи пытаются найти или создать новое сообщество.\r\nВраждебные группировки и новые общества: Часто встречаются описания враждебных группировок или формирование новых обществ с собственными правилами и иерархиями.\r\nПримеры произведений\r\n\"Дорога\" (Cormac McCarthy) — роман о путешествии отца и его маленького сына по выжженной Америке, полной опасностей и беззакония.\r\n\"Я легенда\" (Richard Matheson) — рассказ о последнем выжившем человеке в мире, населённом вампирами, вызванными пандемией.\r\n\"Мад Макс\" (серия фильмов) — культовая серия фильмов, действие которых происходит в постапокалиптической пустыне, где группы выживших сражаются за ресурсы.\r\n\"Судный день\" (The Day of the Triffids, John Wyndham) — роман о выживании человечества после того, как большая часть населения Земли ослепла, и по миру начали бродить хищные растения.\r\nЗначение и влияние\r\nПостапокалиптика позволяет исследовать глубокие философские, социальные и психологические вопросы, такие как сущность человечества, возможность восстановления после глобальной катастрофы и способность человека к адаптации и выживанию в экстремальных условиях. Жанр предлагает зрителям и читателям возможность размышлять о хрупкости современного мира и о том, какие аспекты цивилизации являются действительно важными.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Космос",
+    "slug": "kosmos",
+    "description": "Тэг \"Космос\" в литературе относится к произведениям, в которых ключевую роль играет изучение, путешествие или приключение в космическом пространстве. Это могут быть истории о межзвёздных путешествиях, исследованиях далёких планет, встречах с внеземными цивилизациями или борьбе за выживание в условиях космоса. Такие книги часто затрагивают темы научной фантастики, но могут также включать элементы других жанров, в том числе приключений, мистики и даже философии, исследуя бескрайние возможности человеческого воображения и научного прогресса.\r\n\r\nОсновные характеристики тэга \"Космос\":\r\nМежзвёздные путешествия: Истории, в которых персонажи путешествуют между звёздами и галактиками, исследуя неизведанные уголки Вселенной.\r\nВнеземные цивилизации и жизнь: Встречи с инопланетными формами жизни, исследование их культур, технологий и взаимодействие с ними.\r\nКосмическая опера: Эпические рассказы о галактических империях, космических войнах и политических интригах на фоне Вселенной.\r\nНаучно-фантастические исследования: Основанные на научных гипотезах или реальных научных достижениях истории о покорении космоса, черных дырах, временных петлях и прочих космических явлениях.\r\nВыживание в космических условиях: Сюжеты, сосредотачивающиеся на борьбе человека за выживание на борту космического корабля или на чужой планете.\r\nЗначение и влияние:\r\nКниги с тэгом \"Космос\" позволяют читателям мечтать и размышлять о будущем человечества, его месте во Вселенной и потенциальных встречах с другими цивилизациями. Они могут вдохновлять на научные открытия и технологические инновации, а также предлагать уникальный взгляд на философские, этические и социальные вопросы, с которыми сталкивается человечество. Через призму космоса авторы исследуют глубокие темы, такие как поиск смысла жизни, природа человеческого существования и возможность сосуществования с другими формами жизни в бесконечной Вселенной.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Искусственный интеллект",
+    "slug": "iskusstvennyj-intellekt",
+    "description": "Искусственный интеллект (ИИ) в литературе охватывает широкий спектр научно-фантастических и футуристических произведений, которые исследуют возможности, последствия и этические дилеммы, связанные с развитием и интеграцией ИИ в общество. Книги с этим тэгом обычно включают в себя разумные машины, самообучающиеся компьютерные системы и роботов, способных к мышлению, восприятию и действиям, сравнимым с человеческими или превосходящим их.\r\n\r\nПроизведения, помеченные этим тэгом, могут изучать разнообразные аспекты ИИ, включая:\r\n\r\nСознание и самосознание ИИ: Рассмотрение вопросов о том, может ли ИИ обладать сознанием, и если да, то имеет ли он права, и каковы его отношения с человечеством.\r\nВзаимодействие между человеком и ИИ: Исследование отношений между людьми и искусственными существами, включая дружбу, конфликты, сотрудничество и взаимопонимание.\r\nИскусственный суперинтеллект: Сценарии, в которых ИИ превосходит интеллектуальные способности человека, порождают вопросы о контроле, безопасности и выживании человечества.\r\nЭтические и моральные дилеммы: Обсуждение последствий создания и использования ИИ, включая вопросы ответственности, принятия решений и правовых норм.\r\nТехнологический сингуляритет и будущее общества: Размышления о моменте, когда технологические инновации приведут к непредсказуемым изменениям в структуре общества и человеческой жизни.\r\nКниги с тэгом Искусственный интеллект зачастую предлагают глубокие философские размышления, научные дискуссии и захватывающие сюжеты, делая их интересными для широкой аудитории читателей, включая любителей научной фантастики, технологий и философии. Эти произведения могут служить предупреждением о потенциальных опасностях, связанных с необдуманным развитием технологий, а также вдохновлять на размышления о будущем человечества и роли ИИ в нашей жизни.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Военная фантастика",
+    "slug": "voennaya-fantastika",
+    "description": "Военная фантастика — это жанр литературы, сочетающий элементы научной фантастики с военным жанром, исследуя войны будущего, конфликты между планетами, галактиками или цивилизациями и роль технологий в ведении боевых действий. Книги, помеченные этим тэгом, часто фокусируются на стратегии, тактике и технологиях военного характера, а также на личных историях солдат, командиров и других участников конфликтов.\r\n\r\nОсновные характеристики военной фантастики включают:\r\n\r\nДетально проработанные военные операции: Описание военных стратегий, битв, использования высокотехнологичного оружия и военной тактики.\r\nИсследование военной этики и морали: Вопросы о правильности и справедливости войны, размышления о жертвах и цене победы.\r\nТехнологические инновации: Презентация передовых военных технологий, от космических кораблей до лазерного и плазменного оружия, и их влияние на ход военных действий.\r\nМежзвездные и межгалактические конфликты: Описания масштабных сражений между различными планетами и цивилизациями, включая тактику ведения войн в космосе.\r\nПсихология войны: Погружение во внутренний мир персонажей, сталкивающихся с тяготами войны, их раздумья и чувства в условиях экстремального давления.\r\nКниги с тэгом военная фантастика обращаются не только к любителям научной фантастики, но и к тем, кого интересуют военная стратегия и тактика, а также моральные и этические аспекты ведения войны. Этот жанр предлагает уникальное сочетание фантастических миров и реалистичного взгляда на войну, позволяя читателям исследовать сложные вопросы лояльности, долга, чести и жертвоприношения в условиях вымышленных, но убедительно описанных военных конфликтов.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Межзвездные конфликты",
+    "slug": "mezhzvezdnye-konflikty",
+    "description": "Межзвездные конфликты — это поджанр научной фантастики, который сосредотачивается на военных столкновениях, стратегических дуэлях и дипломатических интригах между различными звездными системами, планетами и галактическими цивилизациями. Книги с этим тэгом погружают читателя в масштабные космические саги, где герои и антигерои сражаются за контроль над галактиками, ресурсы, территории и идеологии. Эти произведения исследуют сложные отношения между различными видами, культурами и мировоззрениями, часто в контексте высокотехнологичного будущего.\r\n\r\nОсобенности межзвездных конфликтов включают:\r\n\r\nГрандиозные сражения и стратегии: Описание ошеломляющих космических битв, использование уникальных военных стратегий и технологий, включая межзвездные корабли и супероружие.\r\nМногообразие инопланетных рас: Представление широкого спектра различных цивилизаций с уникальными культурами, социальными структурами и мотивациями, которые вступают в конфликт или альянсы.\r\nПолитические и дипломатические интриги: Исследование сложных галактических политик, включая переговоры, предательства и манипуляции, которые часто предшествуют или сопровождают военные действия.\r\nФилософские и моральные дилеммы: Размышления о причинах войны, ценности жизни и влиянии конфликта на индивидуума и общество в целом.\r\nТехнологические инновации: Показ новаторских технологий, которые могут включать всё от межзвездных путешествий до искусственного интеллекта и кибернетических улучшений.\r\nКниги с тэгом межзвездные конфликты предлагают читателям не только захватывающие сюжеты и эпические сражения в космическом масштабе, но и глубокие размышления о природе конфликта, власти, человечности и месте человека во Вселенной. Этот жанр особенно привлекателен для тех, кто увлекается космическими операми, стратегическими играми и философскими вопросами о будущем человечества и его роли в галактике.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Личностный кризис",
+    "slug": "lichnostnyj-krizis",
+    "description": "Личностный кризис в литературе обозначает глубокий внутренний конфликт, период сомнений и переосмысления ценностей, целей и смысла собственной жизни у персонажей. Книги, отмеченные этим тэгом, часто исследуют моменты, когда персонажи сталкиваются с ситуациями, вынуждающими их переоценить свои убеждения, моральные принципы или жизненный путь. Эти произведения погружают читателя в глубокие раздумья о личностном росте, самоидентификации и поиске себя.\r\n\r\nОсобенности темы личностного кризиса включают:\r\n\r\nВнутренний конфликт: Глубокое психологическое напряжение, возникающее из-за несоответствия между текущим положением вещей и внутренними стремлениями, убеждениями или потребностями персонажа.\r\nПереоценка ценностей: Моменты, когда персонажи вынуждены пересмотреть свои жизненные приоритеты, что может привести к радикальным изменениям в их поведении и взглядах.\r\nПоиск смысла: Исследование вопросов о смысле жизни, личной миссии и месте в мире, что часто сопровождается глубокими размышлениями и душевными переживаниями.\r\nКризис идентичности: Ситуации, когда персонажи сталкиваются с необходимостью переосмыслить свою личность, социальные роли или профессиональное направление.\r\nЭмоциональные и психологические испытания: Глубокие личные переживания, связанные с потерями, неудачами, изменениями в личной жизни или карьере, которые становятся катализатором личностного кризиса.\r\nКниги с тэгом личностный кризис обращаются к читателям, интересующимся глубинной психологией, личностным ростом и преодолением жизненных трудностей. Этот жанр предлагает комплексное понимание человеческой природы, мотиваций и внутренних преобразований, делая его особенно привлекательным для тех, кто ищет в литературе не только развлечение, но и возможность для саморефлексии и психологического анализа.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Политическая фантастика",
+    "slug": "politicheskaya-fantastika",
+    "description": "Политическая фантастика — это поджанр литературы, который сочетает элементы фантастики с глубоким исследованием политических структур, идеологий и социальных вопросов. Книги, отмеченные этим тэгом, часто представляют альтернативные миры или будущие, где политические эксперименты, утопические или дистопические общественные устройства играют ключевую роль в сюжете и развитии персонажей. Этот жанр предлагает читателям не только захватывающие истории, но и пищу для размышлений о власти, правах человека, свободе, справедливости и роли индивида в обществе.\r\n\r\nОсновные характеристики политической фантастики включают:\r\n\r\nАнализ политических систем: Изучение различных форм правления, от демократии до тоталитаризма, и их влияние на общество и индивидуума.\r\nУтопические и дистопические общества: Создание миров, где реализованы идеальные или крайне отрицательные видения социального устройства, для исследования границ утопических идеалов и их практической реализуемости.\r\nКонфликты и революции: Рассмотрение социальных движений, борьбы за власть и изменения политических режимов как движущих сил сюжета.\r\nЭтика и мораль: Вопросы морали в политике, включая проблемы коррупции, манипуляции общественным мнением и использование технологий для контроля.\r\nСоциальные эксперименты: Исследование последствий внедрения новых технологий, социальных практик или идеологий на структуру общества и жизнь граждан.\r\nКниги с тэгом политическая фантастика обращаются к читателям, заинтересованным в глубоком понимании социальных и политических процессов, любителям фантастики, ищущим в произведениях не только увлекательный сюжет, но и интеллектуальную стимуляцию. Через призму вымышленных миров и событий авторы предлагают критический взгляд на современные политические тенденции, вызывая у читателей размышления о возможных путях развития общества и роли личности в исторических процессах.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Выживание",
+    "slug": "vyzhivanie",
+    "description": "Тэг \"Выживание\" относится к литературным произведениям, в которых ключевым элементом является борьба персонажей за жизнь в экстремальных условиях. Эти книги исследуют инстинкты, ресурсы и изобретательность человека, столкнувшегося с природными стихиями, катастрофами, опасными животными или другими чрезвычайными обстоятельствами. Жанр выживания погружает читателя в напряженные ситуации, где каждое решение может стоить персонажу жизни, подчеркивая тем самым ценность человеческого существования и воли к жизни.\r\n\r\nОсновные характеристики книг с тэгом \"Выживание\" включают:\r\n\r\nЭкстремальные условия: Персонажи оказываются в ситуациях, где их жизнь подвергается непосредственной угрозе — на необитаемом острове, в диких лесах, во время природных катастроф или в условиях апокалипсиса.\r\nРесурсность и изобретательность: Демонстрация способности персонажей адаптироваться к сложившимся условиям, находить или создавать средства для выживания из ограниченного набора ресурсов.\r\nВнутренняя воля и психологическая устойчивость: Исследование внутренних переживаний, страхов, надежд и моральных дилемм персонажей, сталкивающихся с необходимостью выживать.\r\nВзаимоотношения и взаимопомощь: В книгах часто затрагиваются темы группового выживания, взаимодействия между персонажами, построения отношений и конфликтов на фоне общей борьбы за жизнь.\r\nТриумф человеческого духа: Подчеркивание несгибаемости духа, воли к жизни и способности человека преодолевать самые тяжелые испытания.\r\nКниги с тэгом \"Выживание\" обращены к читателям, которые ищут напряженные, захватывающие сюжеты, демонстрирующие человеческую устойчивость и способность противостоять самым суровым испытаниям. Через рассказы о выживании читатели находят вдохновение в историях о силе воли, смекалке и взаимопомощи, видя в них примеры для подражания и источник мотивации в своей жизни.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Клонирование",
+    "slug": "klonirovanie",
+    "description": "Клонирование в литературе часто служит центральной темой или важным элементом сюжета в научной фантастике и футуристических произведениях. Книги, отмеченные тэгом \"Клонирование\", исследуют этические, социальные, психологические и научные аспекты создания генетических копий организмов, включая человека. Этот тэг охватывает широкий спектр идей, от возможностей биотехнологий и генной инженерии до вопросов идентичности, индивидуальности и морали, связанных с клонированием.\r\n\r\nОсновные аспекты, которые часто встречаются в книгах с тэгом \"Клонирование\":\r\n\r\nЭтические дилеммы: Обсуждение моральных вопросов, связанных с клонированием, включая права клонов, их статус в обществе и влияние клонирования на понятие человеческой уникальности.\r\nНаучные и технологические исследования: Изучение потенциальных достижений и рисков, связанных с развитием технологий клонирования, а также их воздействие на медицину, сельское хозяйство и сохранение видов.\r\nСоциальные последствия: Рассмотрение изменений в общественных структурах и отношениях, вызванных возможностью клонирования, включая вопросы неравенства, контроля и доступа к технологиям.\r\nЛичная идентичность: Исследование влияния клонирования на понимание собственного \"Я\", вопросов самоидентификации и взаимоотношений между клонами и их оригиналами.\r\nФилософские размышления: Анализ философских вопросов о сущности человеческого существования, свободе воли и предопределенности в контексте клонированных жизней.\r\nКниги с тэгом \"Клонирование\" обращаются к читателям, интересующимся наукой и философией, а также к тем, кто ищет глубокие размышления о будущем человечества и последствиях технологического прогресса. Через фикциональные сюжеты эти произведения позволяют осмыслить сложные вопросы, связанные с развитием биотехнологий, и предлагают разнообразные сценарии будущего, в котором клонирование играет ключевую роль.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Постапокалипсис",
+    "slug": "postapokalipsis",
+    "description": "Тэг \"Постапокалипсис\" относится к литературным произведениям, действие которых разворачивается в мире после катастрофических событий, таких как ядерная война, пандемия, природные катастрофы, внеземное вторжение или другие апокалиптические сценарии, приведшие к краху современной цивилизации. Эти книги исследуют выживание человечества и адаптацию к радикально изменившемуся миру, часто сосредотачиваясь на темах утраты, надежды, восстановления и человеческой устойчивости.\r\n\r\nОсновные характеристики книг с тэгом \"Постапокалипсис\":\r\n\r\nРазрушенный мир: Представление мира после глобальной катастрофы, где разрушены привычные социальные, экономические и политические структуры.\r\nВыживание: Исследование способов и стратегий выживания в условиях ограниченных ресурсов, отсутствия государственной власти и правил.\r\nМоральные дилеммы: Вопросы морали и этики в новых условиях существования, когда старые нормы и законы больше не действуют.\r\nВзаимодействие персонажей: Разработка сложных отношений между выжившими, их конфликты и союзы в борьбе за ресурсы и территории.\r\nИсследование человеческой природы: Анализ реакции человека на экстремальные условия, включая проявления как высших моральных качеств, так и темных сторон личности.\r\nВосстановление и надежда: Несмотря на апокалиптический контекст, многие произведения включают элементы поиска нового начала, восстановления цивилизации или поиска убежища.\r\nКниги с тэгом \"Постапокалипсис\" обращены к читателям, которых привлекает исследование глубин человеческого духа в условиях крайнего испытания, а также к тем, кто интересуется вопросами выживания и адаптации к новым условиям существования. Через рассказы о мире после апокалипсиса авторы предлагают размышления о важности сообщества, силе воли и способности к возрождению, позволяя читателям по-новому взглянуть на привычные аспекты человеческой жизни.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Криминал",
+    "slug": "kriminal",
+    "description": "Тэг \"Криминал\" применяется к литературным произведениям, которые основаны на изображении преступлений, их расследования и последствий для всех участников событий. Эти книги погружают читателя в мир правонарушений, детективного поиска и судебных разбирательств, предлагая захватывающие истории, полные интриг и неожиданных поворотов. Жанр криминальной литературы включает в себя широкий спектр поджанров, таких как детективы, триллеры, полицейские процедуралы и юридические драмы.\r\n\r\nОсновные характеристики книг с тэгом \"Криминал\":\r\n\r\nПреступление: В центре сюжета всегда лежит одно или несколько преступлений, будь то убийство, кража, мошенничество или другие виды правонарушений.\r\nРасследование: Большая часть нарратива посвящена детальному расследованию преступления, в ходе которого раскрываются улики, мотивы и свидетельства.\r\nПерсонажи: В книгах часто встречаются типичные для жанра персонажи, такие как детективы, следователи, преступники, жертвы и свидетели, каждый со своими уникальными чертами и историей.\r\nНапряжение и интрига: Сюжет строится таким образом, чтобы поддерживать интерес читателя, постоянно подкидывая новые головоломки и неожиданные развития.\r\nСоциальный и психологический контекст: Многие произведения исследуют социальные и психологические аспекты преступления, включая вопросы морали, вины и справедливости.\r\nРазнообразие подходов: От классических детективных историй до современных триллеров, криминальная литература предлагает разнообразие подходов к изложению сюжета, от первого лица или от третьего, с различными точками зрения.\r\nКниги с тэгом \"Криминал\" предназначены для читателей, которые ищут увлекательные истории с элементами загадки, психологии и правосудия. Через увлекательные расследования и глубоко проработанные персонажи эти произведения позволяют глубже понять человеческую натуру, мотивы, лежащие в основе преступных действий, и сложности достижения справедливости.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Мистерия",
+    "slug": "misteriya",
+    "description": "Тэг \"Мистерия\" относится к литературным произведениям, которые окутаны атмосферой тайны, загадочности и неизведанных аспектов реальности или человеческого существования. Книги этого жанра зачастую включают элементы сюрреализма, паранормальных явлений, необъяснимых событий или глубоких философских размышлений, ставящих под вопрос обыденное восприятие мира. Мистерия дразнит разум читателя, предлагая ему погрузиться в поиски ответов на вопросы, которые могут так и остаться без ответа.\r\n\r\nОсновные характеристики книг с тэгом \"Мистерия\":\r\n\r\nАтмосфера таинственности: Создание неповторимой атмосферы, где предчувствие и интрига играют ключевую роль.\r\nСложные загадки и тайны: Сюжеты, строящиеся вокруг неразгаданных тайн, загадок прошлого или паранормальных событий, которые требуют от героев и читателей глубокого погружения и размышлений.\r\nГлубокий психологизм: Персонажи часто оказываются перед личными и экзистенциальными вопросами, исследуя собственные страхи, желания и мотивы.\r\nЭлементы сверхъестественного: Включение паранормальных элементов или событий, которые выходят за рамки обыденного понимания науки или логики.\r\nНеоднозначные концовки: Истории могут заканчиваться открытыми или многозначительными финалами, оставляя место для размышлений и интерпретаций.\r\nФилософские и метафизические размышления: Тексты нередко задевают глубокие философские темы, такие как смысл жизни, природа реальности, судьба и предопределенность.\r\nКниги с тэгом \"Мистерия\" обращены к читателям, ищущим не только развлечения, но и глубокого погружения в мир неизведанного и таинственного. Они предлагают уникальное сочетание напряжения, загадок и философских размышлений, позволяя читателям на время отстраниться от повседневности и погрузиться в раздумья о загадках бытия. Литература мистерии — это приглашение в путешествие по мрачным коридорам человеческой души и неизведанным уголкам вселенной, где границы между реальным и невообразимым стираются.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Исследования",
+    "slug": "issledovaniya",
+    "description": "Тэг \"Исследования\" присваивается книгам, которые затрагивают тему научных, исторических, культурных или любых других видов исследований. Эти произведения могут охватывать широкий спектр тем — от глубоких научных разработок до изучения социальных явлений, исторических эпох или путешествий в неизведанные уголки мира. Книги с данным тэгом предлагают читателям уникальную возможность расширить свои знания, погрузиться в детальное изучение интересующих их тем и получить новые идеи и вдохновение.\r\n\r\nОсновные характеристики книг с тэгом \"Исследования\":\r\n\r\nПознавательный контент: Произведения, предоставляющие глубокие знания по определённой тематике, будь то научные открытия, исторические события или культурные особенности.\r\nДостоверность информации: В книгах преобладают факты, подкреплённые исследованиями, экспериментами и аналитикой, что делает их надёжным источником знаний.\r\nАналитический подход: Авторы предлагают не только описание фактов и событий, но и их анализ, пытаясь выявить причинно-следственные связи и общие закономерности.\r\nМеждисциплинарность: Часто книги с этим тэгом затрагивают несколько областей знаний одновременно, предлагая комплексный взгляд на изучаемую проблематику.\r\nИнновации и открытия: Произведения могут включать описание новейших исследований, технологических инноваций или недавно открытых явлений.\r\nИллюстрации и графики: Для наглядности и лучшего понимания материала книги могут быть снабжены картами, диаграммами, фотографиями и другими иллюстративными материалами.\r\nКниги с тэгом \"Исследования\" предназначены для широкого круга читателей: от профессиональных учёных, исследователей и студентов до всех интересующихся данными темами людей. Они предоставляют уникальную возможность погрузиться в изучение новых идей, расширить кругозор и получить детальное понимание сложных вопросов, лежащих на пересечении различных дисциплин.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 13,
+  "fields": {
+    "name": "Классика",
+    "slug": "klassika",
+    "description": "Тэг \"Классика\" относится к произведениям, которые признаны значимыми и влиятельными в литературном мире и сохранили свою актуальность, глубину и красоту на протяжении многих поколений. Эти книги представляют собой фундаментальные работы, которые сформировали и отразили культурные, социальные и философские аспекты своего времени, оставаясь при этом вечно современными и важными для понимания человеческой природы, истории и общества. Классическая литература включает в себя широкий спектр жанров: от романов, поэзии и драмы до эссе и философских трактатов.\r\n\r\nОсновные характеристики книг с тэгом \"Классика\":\r\n\r\nВременная проверка: Произведения, которые сохранили своё значение и читательский интерес на протяжении десятилетий, а зачастую и веков.\r\nУниверсальные темы: Эксплорация глубоких и вечных тем, таких как любовь, власть, справедливость, человеческие конфликты и поиск смысла жизни.\r\nЯзыковое мастерство: Выдающееся использование языка, которое часто задаёт стандарты красоты и выразительности литературного выражения.\r\nКультурное и историческое значение: Отражение и влияние на культурные и социальные процессы своего времени, предоставляя читателям ценные исторические и культурные инсайты.\r\nВлияние на литературу и культуру: Вдохновение для последующих поколений писателей и значительное влияние на мировую культуру и литературу.\r\nОбразовательная ценность: Часто включается в учебные программы как важный элемент литературного образования, способствуя развитию критического мышления и аналитических навыков.\r\nКниги, отмеченные тэгом \"Классика\", обращены к читателям, которые стремятся понять и оценить основы литературного наследия человечества. Они предлагают богатство идей, эмоций и стилей, способствующих интеллектуальному и духовному развитию, а также позволяют лучше осознать исторический контекст и человеческие ценности, которые остаются актуальными на протяжении веков.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 14,
+  "fields": {
+    "name": "Магия",
+    "slug": "magiya",
+    "description": "Тэг \"Магия\" применяется к литературным произведениям, в которых магия играет ключевую роль в сюжете, мироустройстве или развитии персонажей. Эти книги погружают читателей в удивительные миры, где законы физики уступают место заклинаниям, чарам и сверхъестественным силам, открывая перед ними двери в мир фантазии, где возможно всё. Жанры, к которым чаще всего относятся такие произведения, включают фэнтези, мифологическую и фолклорную литературу, а также некоторые вариации научной фантастики и ужасов, где магические элементы выступают в качестве ключевых компонентов сюжета.\r\n\r\nОсновные характеристики книг с тэгом \"Магия\":\r\n\r\nМагический мир: Создание уникальных, зачастую сложных миров, где магия является неотъемлемой частью жизни, культуры и истории.\r\nСистема магии: Внимательно продуманные правила и принципы, которые определяют, как магия работает в данном мире, включая её источники, ограничения и последствия.\r\nМагические существа: Включение в сюжет эльфов, драконов, ведьм, магов и других существ, обладающих магическими способностями.\r\nКонфликт и разрешение: Часто конфликты в таких произведениях связаны с использованием магии, будь то борьба за власть, защита от зла или внутренние борьбы персонажей с проблемами контроля над своими магическими способностями.\r\nТемы и мотивы: Исследование глубоких тем через призму магии, таких как добро против зла, поиск собственной идентичности, власть и ответственность, жертва и искупление.\r\nЭмоциональное воздействие: Создание сильных эмоциональных связей с читателями через чудеса, открытия и испытания, которые переживают персонажи благодаря или в связи с магией.\r\nКниги с тэгом \"Магия\" предназначены для читателей, которые ищут отход от реальности и погружение в миры, где границы возможного значительно расширены за счёт магических элементов. Эти произведения предлагают богатую палитру воображаемых приключений, глубоких персонажей и захватывающих сюжетов, делая их идеальным выбором для любителей фэнтези и всех, кто жаждет приключений за пределами обыденного.",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 15,
+  "fields": {
+    "name": "Философия",
+    "slug": "filosofiya",
+    "description": "ООО\r\nСмысл\r\nЖизни",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 16,
+  "fields": {
+    "name": "Тайные общества",
+    "slug": "tajnye-obshestva",
+    "description": "О боже\r\nМасссоныыыыы",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 17,
+  "fields": {
+    "name": "Психологический ужас",
+    "slug": "psihologicheskij-uzhas",
+    "description": "ОООООО УЖАСССС",
+    "icon": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Айзек",
+    "last_name": "Азимов",
+    "photo": "author_photos/Айзек_Азимов.jpg",
+    "slug": "azimov-ajzek",
+    "biography": "Айзек Азимов родился 2 января 1920 года на Смоленщине в еврейской семье. Входит в так называемую «Большую тройку» (наряду с другими писателями-фантастами: Артуром Кларком и Робертом Хайлайном). Также работал в жанре детектива, написал несколько научно-популярных книг.\r\nКогда мальчику исполнилось три года, родители переехали в США. Отучившись в школе, юноша стал студентом химического факультета Колумбийского факультета. Долгие годы (с перерывом на службу в армии в 1945-1946гг.) занятия химией будут его профессией и источником дохода. После аспирантуры был приглашен преподавать в Бостонском университете. В стенах этого заведения в 1979 году получил звание профессора.\r\nКак автор художественных текстов публикуется с 1939 года. Рассказ «Приход ночи» (1941г.) принес писателю известность и признание (впоследствии данное произведение было дважды экранизировано и вошло в два десятка антологий).\r\nНесколько терминов из его произведений вошли в английский язык (как например «robotics»). Он сформулировал три главных закона робототехники. Сборник рассказов «Я, робот» — своего рода этический кодекс для андроидов.\r\nПисатель считал, что роль научной фантастики — в объединении человечества, в искоренении ненависти между людьми. В своих научно-популярных работах он развенчивал псевдонауку и суеверия.\r\nСкончался в 1992 году."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Андрей",
+    "last_name": "Круз",
+    "photo": "author_photos/Андрей_Круз.jpg",
+    "slug": "kruz-andrej",
+    "biography": "Андрей Юрьевич Хамидулин (Круз — псевдоним) родился 26 января 1965 года, на Украине в семье военного. Родителям приходилось часто переезжать из-за службы отца. Так, после девятого класса Андрей попал в Москву.\r\nВ лихие 90-е занялся бизнесом, дважды пережил рейдерский захват, терял все и начинал дело с нуля, какое-то время возглавлял компанию ООО «Обучение, наука, производство». В 2005 году был обвинен в мошенничестве. Пытаясь избежать тюремного срока, эмигрировал. Бывший предприниматель путешествовал по Латинской Америке, работал пять лет в британской фирме, где занимался риск-менеджментом. Затем осел в Испании, в городе Марбелье, где и живет до сих пор.\r\nСейчас у него семейное дело: стрелковый клуб и оружейные магазины. В 2016 году против писателя было возобновлено уголовное дело из-за жалобы, поданной Ольгой Платоновой, известной ведущей телепередачи «Фазенда». Его арестовали испанские власти и продержали в тюрьме 12 суток, после чего писателя освободили. На родину по понятным причинам он вернуться не может.\r\nЯзыкового барьера писатель не боится: он одинаково свободно говорит и пишет по-английски, по-испански и по-русски, а также неплохо владеет португальским.\r\nПервые произведения были написаны в 2006 году в соавторстве с женой и опубликованы на интернет-портале «Самиздат». Книги автора выделяются среди прочих реализмом в описании батальных сцен и оружия героев, благодаря чему писатель быстро стал популярным. В 2008 году ему предложили контракт с издательством «Альфа-книга». С этого момента он начинает регулярно публиковаться. Вокруг него формируется круг преданных фанатов.\r\nОсобой популярностью пользуются книжные серии «Земля лишних» и «У Великой реки». Сам писатель говорит, что занимается творчеством не ради славы, а для удовольствия.\r\nАндрея Круза не стало 20 февраля 2018 г."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 3,
+  "fields": {
+    "first_name": "Лю",
+    "last_name": "Цысинь",
+    "photo": "author_photos/Лю_Цысинь.jfif",
+    "slug": "cysin-lyu",
+    "biography": "Лю Цысинь — самый популярный из писателей-фантастов Китайской Народной Республики. Лю восемь раз удостаивался премии «Галактика» (китайский «Хьюго»).\r\nПисатель родился 23 июня 1963 года в семье шахтера в Янцюане, провинция Шаньси. Спасаясь от последствий «культурной революции», родители перевезли его в Хэнань. В 1988 году Лю окончил Северно-Китайский Университет водного хозяйства и электроэнергетики. Работал инженером на электростанции в Янцюане (провинция Шаньси), где проживает с женой и дочерью."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 4,
+  "fields": {
+    "first_name": "Мария",
+    "last_name": "Круз",
+    "photo": "author_photos/Мария_Круз.jfif",
+    "slug": "kruz-mariya",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 5,
+  "fields": {
+    "first_name": "Джон",
+    "last_name": "Скальци",
+    "photo": "author_photos/Джон_Скальци.jfif",
+    "slug": "skalci-dzhon",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 6,
+  "fields": {
+    "first_name": "Константин",
+    "last_name": "Соловьев",
+    "photo": "",
+    "slug": "solovev-konstantin",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 7,
+  "fields": {
+    "first_name": "Рэй",
+    "last_name": "Брэдбери",
+    "photo": "author_photos/Рэй_Брэдбери.webp",
+    "slug": "bredberi-rej",
+    "biography": "Рэй Брэдбери (Raymond Bradbury) появился на свет 22 августа 1920 года, в городе Уокиган, штат Иллинойс. Родители были поклонниками голливудского актера Дугласа Фэрбенкса, друга Чарли Чаплина, поэтому второе имя писателя — Дуглас. Старший брат мальчика умер, когда тот был совсем юным.\r\nДетство писателя пришлось на годы Великой депрессии. Из-за отсутствия денег он так и не смог позволить себе обучение в колледже и активно занялся самообразованием. Книги стали для него источником вдохновения.\r\nОднажды Рею не хватило денег на «Великого воина Марса» Берроуза. Тогда он решил написать свою версию истории. Ему понравилось сочинять, и уже к двадцати годам молодой человек понял, что хочет стать писателем.\r\nСлава пришла к нему после публикации романа «451 градус по Фаренгейту», антиутопии, посвященной тоталитарному миру и борьбе с ним. «Мэтр фантастики» взял себе за правило писать каждый день. Он верил, что любимая работа способна излечить от всех болезней.\r\nВ пожилом возрасте он пережил тяжелый инсульт и оказался прикован к инвалидному креслу, но не потерял бодрость духа и писал вплоть до самой своей смерти, наступившей 5 июня 2012 года.\r\nСемья и личная жизнь\r\nЗнакомство Рэя с будущей женой было крайне романтичным: как-то раз в книжном магазине Лос-Анджелеса он встретил прекрасную незнакомку по имени Мэгги, влюбился в нее без памяти и добился взаимности. У супругов родилось четверо дочерей.\r\nОбщественная деятельность\r\nПисатель занимался популяризацией научной фантастики и интересовался наукой. Им был сделан целый ряд прогнозов о будущем человечества, некоторые из которых сбылись.\r\nНаграды\r\nПисатель обладает невероятным количеством престижных премий, но нельзя не упомянуть, что ему был присуждена Пулитцеровская премия «за выдающуюся, плодотворную и глубоко повлиявшую на литературу карьеру». В честь него Международный астрономический союз назвал один из кратеров на Марсе\r\nЭкранизации\r\nМало кто знает, что фантаст был еще и сценаристом. Предполагалось, что он станет автором сценария к «Птицам» Альфреда Хичкока, но занятость помешала ему приступить к работе над проектом. Кроме того, писатель выпускал цикл радио- и телепередач по мотивам своих рассказов.\r\nСамой известной экранизацией можно назвать «451 градус по Фаренгейту» Франсуа Трюффо. Широкую популярность получил также фильм «И что-то страшное грядет» киностудии Дисней, за который он получил награду как лучший кинодраматург."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 8,
+  "fields": {
+    "first_name": "Стиг",
+    "last_name": "Ларссон",
+    "photo": "author_photos/Стиг_Ларссон.jfif",
+    "slug": "larsson-stig",
+    "biography": "Стиг Ларссон родился в шведском городе Шеллефтео в 1954 году. Все детство будущий писатель прожил с бабушкой, потому что молодым родителям было совершенно не до сына. Это сказалось в будущем, когда Ларссон, уже живущий с родителями, ушел из дома. Стиг Ларссон всегда был политически ангожирован, возможно, это было связано с тем, что его дедушка — антифашист — полжизни провел в лагерях. Спутницу жизни будущий писатель встретил в 18 лет, ею стала архитектор Ева Габриэльссон. В 33 года Ларссон вышел из партии, потому что решил, что принципы, которые она защищает, недостаточно демократические для него. Литературная карьера началась довольно рано: с 18 лет редактировал разные газеты и журналы. Стал председателем клуба любителей научной фантастики. Стил Ларссон, чьи романы, к сожалению, уже после его смерти, ставшие бестселлерами, не сходящими с топовых позиций, вел очень активную социальную жизнь, работал дизайнером, учил женские партизанские отряды обращаться с гранатометом, налаживал связи с Гренадой, вел дискуссии и круглые столы, издал книгу «Правый экстримизм». При жизни писатель был известен как политик, после смерти пришла литературная слава: его романы переведены на множество языков и издаются немыслимыми тиражами. Самый известный его роман в России, во многом, благодаря экранизации, «Девушка с татуировкой дракона»."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 9,
+  "fields": {
+    "first_name": "Кристи",
+    "last_name": "Агата",
+    "photo": "author_photos/Агата_Кристи.jfif",
+    "slug": "agata-kristi",
+    "biography": "Агата Кристи (Agatha Christie) родилась 15 сентября 1890 года. Ее настоящая фамилия — Миллер. Девочка получила блестящее образование, обожала музыку, но смертельный страх перед публичными выступлениями помешал ей сделать музыкальную карьеру.\r\n\r\nВо время Первой мировой войны работала сестрой милосердия и параллельно изучала фармацевтику. Впоследствии полученный опыт и знания помогли ей при написании детективов. После победы она сочеталась браком со своим возлюбленным, а затем выпустила свой дебютный роман под названием «Таинственное происшествие в Стайл», который имел успех у широкой публики.\r\n\r\nОпределенным пиаром стал для будущей «королевы детективов» загадочный случай с ее собственным исчезновением: однажды после супружеской ссоры она пропала. Ее искали 11 дней и, наконец, нашли. Впоследствии выяснилось, что молодая женщина стала жертвой кратковременной амнезии из-за травмы головы. Выздоровев, она развелась с мужем и отправилась в путешествие по Востоку, где вскоре познаклмилась со своим вторым супругом.\r\n\r\nВпечатлений от поездок ее хватило на всю жизнь! Ее произведения обогатились красочным колоритом далеких загадочных стран. Например, «Убийство в Восточном экспрессе» было написано ею в Стамбуле. В номере, который она занимала, сейчас располагается небольшой музей, посвященный истории создания знаменитого произведения.\r\n\r\nПо версии исследователей, в преклонные годы романистка страдала болезнью Альцгеймера: об этом свидетельствует ее почерк. Но она упорно продолжала писать вплоть до самой своей смерти, наступившей 12 января 1976 года.\r\n\r\nСемья и личная жизнь\r\n\r\nВ юности Агата была замужем за полковником Арчибальдом Кристи, у них родилась дочка Розалинда. Однако муж влюбился в другую женщину и потребовал развод. В 1930 году романистка познакомилась со своим вторым супругом, археологом Максом Маккоуэном.\r\n\r\nОбщественная деятельность\r\n\r\nПисательница была главой английского Детективного клуба, существующий и по сей день.\r\n\r\nНаграды\r\n\r\nЗа достижения в области литературы в 1971 году ей был пожалован титул Дамы-Командора. До этого ее наградили орденом Британской Империи.\r\n\r\nЭкранизации\r\n\r\nПо мотивам произведений «королевы детектива» выпустили целый ряд компьютерных игр. Особой любовью разработчиков пользуются «Десять негритят». Его любят и режиссеры: одну из самых знаменитых экранизаций снял в 1945 году Рене Клер, а позднее Станислав Говорухин.\r\n\r\nМножество раз экранизировались и книжные серии о неугомонной мисс Марпл и проницательном Эркюле Пуаро."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 10,
+  "fields": {
+    "first_name": "Максим",
+    "last_name": "Макаренков",
+    "photo": "",
+    "slug": "makarenkov-maksim",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 11,
+  "fields": {
+    "first_name": "Кора",
+    "last_name": "Клеменс",
+    "photo": "",
+    "slug": "kora",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 12,
+  "fields": {
+    "first_name": "Андрей",
+    "last_name": "Коротаев",
+    "photo": "",
+    "slug": "korotaev-andrej",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 13,
+  "fields": {
+    "first_name": "Джеймс",
+    "last_name": "Кори",
+    "photo": "",
+    "slug": "kori-dzhejms",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 14,
+  "fields": {
+    "first_name": "Ярослав",
+    "last_name": "Калфарж",
+    "photo": "",
+    "slug": "kalfarzh-yaroslav",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 15,
+  "fields": {
+    "first_name": "Ким",
+    "last_name": "Стэнли Робинсон",
+    "photo": "",
+    "slug": "stenli-robinson-kim",
+    "biography": "Ким Стэнли Робинсон (Kim Stanley Robinson) - американский писатель-фантаст, лауреат премий \"Хьюго\", \"Небьюла\", \"Локус\" и других. Автор множества книг, включающих в себя отмеченные критиками \"Калифорнийский триптих\" (3 романа - 3 альтернативные версии Калифорнии - постапокалипсис, антиутопия и утопия), \"Марсианскую трилогию\",  \"Аврору\", \"Нью-Йорк 2140\" и ряд сборников рассказов. \r\n\r\nРобинсон Родился в 1952 в Уокигане, штат Иллинойс, но вырос в Южной Калифорнии и в настоящее время живет в Дейвисе, штат Калифорния. \r\n\r\nАвтор окончил Калифорнийский и Бостонский университеты, в 1974 и 1975 гг. соответственно получил в обоих бакалаврскую и магистерскую степени по литературе и английскому языку. В 1982 году в Калифорнийском университете в Сан-Диего получил еще одну (по сути уже третью!) степень, на этот раз докторскую по литературе. Его работа, ставшая докторской называлась — «Романы Филиппа Дика» и в 1984 году была издана отдельной книгой. \r\n\r\nЕще в студенческие годы опубликовал свои первые рассказы — «Возвращаясь в Диксиленд» и «В оркестре Пирсона» (сборник «Orbit-18», 1975). До 1984 г. публиковал лишь рассказы, один из которых — «Черный воздух» — завоевал Всемирную премию фэнтези в 1983 г."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 16,
+  "fields": {
+    "first_name": "Уилки",
+    "last_name": "Коллинз",
+    "photo": "",
+    "slug": "kollinz-uilki",
+    "biography": "Коллинз Уильям Уилки — классик британской литературы, романист, новеллист, драматург. Родился в 1824 году в Лондоне. В детстве вместе с семьей много путешествовал, изучал иностранные языки. Начальное образование получил дома, после чего обучался в частной школе. Затем изучал юриспруденцию и начал карьеру юриста. Первое произведение — роман «Иолани, или Таити, как это было» был написан в 1843 году, однако получил отказ издателя. Впервые это произведение было издано только в конце 20-го века. Первой книгой Уилки Коллинза стали воспоминания о его отце. Затем был написан и издан роман «Антонина». Большую роль в становлении писателя и развитии его литературного таланта сыграла дружба с Чарлзом Диккенсом, с которым он совместно создал ряд произведений. В 1860-х годах Уилки Коллинз написал свои самые известные произведения, благодаря которым его творчество вошло в золотой фонд мировой литературы. Роман «Лунный камень» сочетает в себе детективную линию и романтический сюжет. Эта книга стала самой известной среди наследия писателя. Еще одно произведение — «Женщина в белом» вдохновило многих писателей на создание собственных романов с детективной составляющей, а также неоднократно экранизировалось в 20 и 21 веке. Писатель умер в 1889 году в Лондоне."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 17,
+  "fields": {
+    "first_name": "Крис",
+    "last_name": "Хэдфилд",
+    "photo": "",
+    "slug": "hedfild-kris",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 18,
+  "fields": {
+    "first_name": "Деннис",
+    "last_name": "Тейлор",
+    "photo": "",
+    "slug": "tejlor-dennis",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 19,
+  "fields": {
+    "first_name": "Трэвис",
+    "last_name": "Коркоран",
+    "photo": "",
+    "slug": "korkoran-trevis",
+    "biography": ""
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 20,
+  "fields": {
+    "first_name": "Артур",
+    "last_name": "Конан Дойл",
+    "photo": "",
+    "slug": "konan-dojl-artur",
+    "biography": "Сэр Артур Конан Дойл (Sir Arthur Conan Doyle) родился 22 мая 1859 года в Эдинбурге, в семье бедного архитектора. От матери маленький Артур и унаследовал любовь к авантюрным рассказам и рыцарским романам. Отец же отличался неуравновешенным характером и был совершенно лишен практической жилки, поэтому денег в семье всегда не хватало. По протекции богатых родственников Артура определили в закрытый иезуитский колледж, но семь лет, проведенные там, он вспоминал с содроганием.\r\n\r\nОн решил связать свою жизнь с медициной. В университете он увлекся написанием коротких историй, одну из которых, «Тайну Сэсасской долины», было решено опубликовать в студенческой газете.\r\n\r\nПолучив диплом, писатель нашел пост корабельного врача, и в этом качестве совершил несколько удивительных путешествий по арктическим водам и к берегам Африки. Впоследствии полученный опыт лег в основу многих его произведений.\r\n\r\nПервая повесть о Шерлоке Холмсе, «Этюд в багровых тонах», была написана и опубликована в 1887 году. Сам писатель относился к своему герою довольно скептически: куда большее значение он придавал своим историческим романам. Однако новеллы о гениальном сыщике и его друге-докторе Ватсоне имели неожиданный успех. Вскоре он превратился в самого высокооплачиваемого автора в мире.\r\n\r\nПервая мировая обернулась для писателя личной трагедией: его сын погиб во Франции. Скорбь нашла выход в увлечении спиритизмом. Писатель написал целый ряд исследовательских работ на тему спиритического учения и провел последние годы, проповедуя веру в призраков и загробную жизнь. Многочисленные потрясения истощили силы его организма: 7 июля 1930 года писатель скончался от сердечного приступа.\r\n\r\nСемья и личная жизнь\r\nСоздатель Шерлока Холмса был женат дважды. Его первая жена, Луиза Хокинс, умерла от туберкулеза, и через непродолжительный период времени он женился вторично на Джин Лекки, также увлекавшейся спиритизмом. У писателя было пятеро детей.\r\n\r\nОбщественная деятельность\r\nСэр Артур получил признание как один из самых прогрессивных врачей своего времени: он широко интересовался новейшими исследованиями, регулярно публиковал медицинские статьи, а его исследования методов вакцинации даже сегодня не утратили своей актуальности. После начала Англо-бурской войны писатель организовал военно-полевой госпиталь на свои средства и сам помогал раненным. В конце жизни активно боролся за отмену законов, преследующих медиумов.\r\n\r\nНаграды\r\nКороль Эдуард VII даровал писателю рыцарский титул за врачебные и литературные заслуги.\r\n\r\nЭкранизации\r\nЛьвиная доля экранизаций связана с рассказами о Шерлоке Холмсе. Сериалы, художественные фильмы и анимационные картины о проницательном сыщике снимаются почти каждый год. Первая экранизация появилась еще в далеком 1900 году. На сегодняшний день самыми популярными считаются: цикл советских кинофильмов Игоря Масленникова, адаптация BBC c Бенедиктом Камбербэтчем и Мартином Фрименом и «Шерлок Холмс» Гая Ричи."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 21,
+  "fields": {
+    "first_name": "Константин",
+    "last_name": "Образцов",
+    "photo": "",
+    "slug": "obrazcov-konstantin",
+    "biography": "Константин Образцов — писатель, филолог, автор триллеров с элементами мистики «Молот ведьм» и «Красные цепи»\r\n\r\nКонстантин Образцов родился в Санкт-Петербурге в 1972 году. Окончил РГПУ им. Герцена по специальности «русская филология и культура». Преподавал русский язык и литературу в средней школе.\r\n\r\nС 2000 года работает в сфере маркетинга, более десяти лет занимает позицию директора по маркетингу крупных производственных предприятий.\r\n\r\nЛауреат национальной литературной премии «Рукопись года» 2013 года, премии «Живая Книга» торговой сети «Буквоед» 2015 года, номинант литературных конкурсов «ИнтерПрессКон» и «Новые горизонты».\r\n\r\nДебютный роман Константина Образцова «Красные цепи» покорил многих любителей мистических триллеров, а «Молот ведьм» укрепил славу писателя как автора леденящих душу историй, которые удерживают читателя в напряжении до последней страницы. Сам автор признается, что его вдохновляют произведения Теодора Амадея Гофмана, Николая Гоголя, Чарльза Диккенса, а также Йона Айвиде Линдквиста, Дэна Симмонса и Линкольна Чайлда."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 22,
+  "fields": {
+    "first_name": "Гилберт",
+    "last_name": "Кит Честертон",
+    "photo": "",
+    "slug": "kit-chesterton-gilbert",
+    "biography": "Честертон Гилберт Кит — британский писатель, христианский философ, публицист. Родился в 1874 году в Лондоне. Обучался изобразительному искусству, посещал литературные курсы. Работал в издательстве, журналистом, литературным критиком. В 1905 году начал работать колумнистом в газете The Illustrated London, которой остался верен на протяжении 30 лет. На литературное творчество Гилберта Кита Честертона большое влияние оказало христианство — в молодости он стал католиком. Среди произведений, написанных Честертоном — несколько сотен стихотворений, около 80 книг, сотни очерков, эссе и рассказов, а также религиозно-философские трактаты. Наиболее популярными его произведениями являются циклы детективных романов, главными героями которых являются священник Браун и ироничный скептик Хорн Фишер. Среди известных романов Честертона — «Шар и Крест», «Перелетный кабак», «Пятерка шпаг» и др. Наряду с литературным творчеством писатель принимал участие в различных дебатах. Среди его друзей были такие известные литераторы, как Бернард Шоу, Герберт Уэллс, Бертран Рассел, Николай Гумилев. Честертон выступал с публичными лекциями в США и других странах, руководил газетой, которую унаследовал от брата. Писателя не стало в 1936 году в Великобритании."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 23,
+  "fields": {
+    "first_name": "Эдгар",
+    "last_name": "Аллан По",
+    "photo": "",
+    "slug": "allan-po-edgar",
+    "biography": "По Эдгар Аллан — американский писатель XIX века, представитель романтического направления, основоположник жанра научной фантастики. Появился на свет в 1809 году в Бостоне.\r\n\r\nРодители Эдгара умерли, когда он был младенцем, и опекунство над ним взял состоятельный купец. С детских лет мальчик увлекался чтением, рисованием и верховой ездой. В 6-летнем возрасте он был отправлен на учебу в Лондон, а по возвращении из Англии получал образование в престижном колледже и университете в Ричмонде.\r\n\r\nВ 16 лет будущий знаменитый писатель разорвал свои отношения с приемным отцом, отправился в Бостон и поступил на службу в армию. В Бостоне им был собран поэтический сборник «Тамерлан и другие стихотворения». Спустя год, примирившись с приемным отцом, возвратился в Балтимор и опубликовал второй сборник.\r\n\r\nВ 1831 году прибыл в Нью-Йорк, где закончил работу над третьим альманахом. С этого времени писатель из-за очередной ссоры со своим опекуном находился в бедственном положении и много работал. Им были написаны произведения «Золотой жук», «Убийство на улице Морг», «Падение дома Ашеров», «Дом с привидениями» и другие.\r\n\r\nВ 1847 году он был потрясен смертью своей жены. Последние годы своей жизни писатель находился в алкогольной зависимости и страдал психическими расстройствами.\r\n\r\nЛитератор скончался в 1849 году на 41-м году жизни."
+  }
+},
+{
+  "model": "catalog.author",
+  "pk": 24,
+  "fields": {
+    "first_name": "Вадим",
+    "last_name": "Панов",
+    "photo": "",
+    "slug": "panov-vadim",
+    "biography": "Предупреждаю сразу и честно: ярких героико-романтических эпизодов в моей биографии нет. Я не служил снайпером элитного спецподразделения, не бился на баррикадах, не бродяжничал, не увлекался сектанскими проповедями, а черным поясам предпочитаю кожаные. Как говорится: что есть, то и кушайте, фантазировать о себе не люблю.\r\n\r\nИтак.\r\n\r\nРодился 15 ноября 1972 года в классической семье военного имперского образца. Папа менял гарнизоны и страны, мама перемещалась следом, я — в арьергарде. О количестве школ, которые я сменил за время учебы, историки спорят до сих пор.\r\n\r\nРодителей своих люблю и горжусь. Папа в свое время учил арабов воевать с евреями, потом оккупировал несчастных мадьяр, а в перерывах защищал завоевания социализма в Западном военном округе. На его примере я убедился, что можно, подскочив по тревоге в три часа ночи, успеть одеться и добежать (1,5 км) до казарм за шесть минут, что можно жить в двадцатиградусный мороз в обычной брезентовой палатке, и можно собрать ведро боровиков в самом «гиблом» лесу. Еще он меня научил, что главное на рыбалке — тихо посидеть с удочкой на берегу, а лучше русской бани ничего не придумано. Мама у нас контролировала домашний очаг, выучила меня писать, читать и считать. Благодаря ей, придя в первый класс я знал таблицу умножения, умел складывать и вычитать в столбик, умножать и делить трехзначные числа. На этом мое «домашнее» образование было закончено, и все дальнейшие премудрости и в школе и в институте я постигал самостоятельно.\r\n\r\nВ 1983 году мы вернулись в Москву, и я, наконец-то, отучился в одной школе целых три года подряд.\r\n\r\nКроха сын к отцу пришел и спросила кроха\r\nЧто такое хорошо, и что такое плохо?\r\nПапа наш в тупик зашел, но ответить смог он:\r\n«Быть маевцем — хорошо, остальное — плохо!»\r\n(студенческая самодеятельность)\r\n\r\nВ 1989 году я поступил в лучший в мире Московский Авиационный Институт, на лучший Факультет Радиоэлектроники Летательных Аппаратов (ФРЭЛА), славный практически полным отсутствием студенток женского пола, сепаратистки настроенной Малой Землей и «Зеркалом».\r\n\r\n«Зеркало» — легендарный студенческий театр 4 факультета, истоки которого теряются в туманной дымке семидесятых годов. Ортопедическая команда, на представлениях которой всегда аншлаг. Идейный вдохновитель и Главный двигатель — Алексей Толкачев.\r\n\r\nС этой славной компанией мы с друзьями сумели подружиться уже на первом курсе, а со второго окунулись, так сказать, по полной программе, изредка выделяя время на мелочи вроде учебы. Апофеозом этого отрезка жизни стали спектакль «Такие игры» (1994), поставленный по моей пьесе, диплом радиоинженера (1995), выданный по моей дипломной работе и любимая женщина НАТАЛЬЯ, обнаруженная на соседнем факультете. Потом я стал взрослым и скучным.\r\n\r\nА потом наступил 2001 год, и я родил очаровательную и хулиганистую девчонку ПОЛИНУ и придумал Тайный Город."
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 1,
+  "fields": {
+    "name": "Академия",
+    "slug": "akademiya-1",
+    "image": "cover_images/Академия.jpg",
+    "description": "Отдаленное будущее... Человечество покорило космос, а Земля уже давно перестала быть центром Вселенной. Огромные размеры Галактической Империи явно не пошли ей на пользу - уязвимость отдельных планет и неэффективное управление угрожают разрушить все, что было создано с таким трудом. Сможет ли Гэри Сэлдон - ученый, основатель науки \"психоистория\", восстановить человеческую культуру после грядущей катастрофы и периода варварства?\r\n\r\n«История нашего будущего начинается в Академии».\r\n\r\n— Amazon.com\r\n\r\nПервая книга грандиозной трилогии Айзека Азимова, патриарха и «грандмастера научной фантастики». Глобальные идеи, нон-стоп экшен и детальное построение мира — характерный стиль Азимова.\r\n\r\nПремия «Хьюго» в категории «Лучший книжный сериал всех времен».\r\n\r\nЭкранизация от Apple.",
+    "year": 2018,
+    "category": 1,
+    "isbn": "978-5-04-0939",
+    "pages": 320,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-22T17:22:34.725Z",
+    "updated_on": "2024-02-23T08:59:31.173Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      1
+    ],
+    "tags": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 2,
+  "fields": {
+    "name": "Бандит",
+    "slug": "bandit-2",
+    "image": "cover_images/Бандит.jpg",
+    "description": "«На пороге Тьмы» — популярный боевой цикл Андрея Круза.\r\n\r\nРеалистичные боевые сцены и суровая «окопная правда» — визитная карточка Андрея Круза, который пишет о любимом деле со знанием бывшего военного и владельца оружейного магазина.",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-180386-5",
+    "pages": 416,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T09:10:50.903Z",
+    "updated_on": "2024-02-23T09:10:50.903Z",
+    "is_available": true,
+    "genre": [
+      6,
+      7
+    ],
+    "authors": [
+      2
+    ],
+    "tags": [
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 3,
+  "fields": {
+    "name": "Вечная жизнь Смерти",
+    "slug": "vechnaya-zhizn-smerti-3",
+    "image": "cover_images/Вечная_жизнь_Смерти.jpg",
+    "description": "Через полвека после конца Эры Устрашения человечество снова сталкивается с смертельной опасностью, исходящей из глубин космоса - словно из Темного Леса, полного чудовищ.\r\nОкончание трилогии \"Воспоминания о прошлом Земли\" самого знаменитого китайского фантаста Лю Цысиня. Книга буквально взорвала читательскую аудиторию и завоевала все жанровые награды.\r\n\r\n- Лауреат премии \"Локус\" и финалист премии \"Хьюго\"\r\n- Бестселлер New York Times\r\n- Одна из лучших книг года по версии  Amazon, The Guardian, Tor.com, Kirkus Review, NPR и B&N Sci-Fi & Fantasy Blog\r\n\r\nОтзывы:\r\n\r\n\"Необычно\" Thу New Yorker\r\n\r\n\"Не упустите!\" Kirkus Review\r\n\r\n\"Маст-рид на любом языке\" Booklist\r\n\r\nЧерез полвека после конца Эры Устрашения человечество снова сталкивается со смертельной опасностью, исходящей из глубин космоса — словно из Темного Леса, полного чудовищ.\r\n\r\nОкончание трилогии «Воспоминания о прошлом Земли» самого знаменитого китайского фантаста Лю Цысиня. Книга буквально взорвала читательскую аудиторию и завоевала все жанровые награды.\r\n\r\n- Лауреат премии «Локус» и финалист премии «Хьюго».\r\n\r\n- Бестселлер New York Times.\r\n\r\n- Одна из лучших книг года по версии Amazon, The Guardian, Tor.com, Kirkus Review, NPR и B&N Sci-Fi & Fantasy Blog.\r\n\r\n«Необычно». — Thу New Yorker\r\n\r\n«Не упустите!» — Kirkus Review\r\n\r\n«Маст-рид на любом языке». — Booklist",
+    "year": 2018,
+    "category": 1,
+    "isbn": "978-5-04-123606-9",
+    "pages": null,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": null,
+    "added_on": "2024-02-23T09:19:06.692Z",
+    "updated_on": "2024-02-23T09:19:06.692Z",
+    "is_available": true,
+    "genre": [
+      4,
+      5
+    ],
+    "authors": [
+      3
+    ],
+    "tags": [
+      15
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 4,
+  "fields": {
+    "name": "Возле тьмы: Чужой",
+    "slug": "vozle-tmy-chuzhoj-24",
+    "image": "cover_images/Возле_тьмы._Чужой.jpg",
+    "description": "«На пороге Тьмы» — популярный боевой цикл Андрея Круза.\r\n\r\nРеалистичные боевые сцены и суровая «окопная правда» — визитная карточка Андрея Круза, который пишет о любимом деле со знанием бывшего военного и владельца оружейного магазина.",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-158161-9",
+    "pages": 2022,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T09:25:25.934Z",
+    "updated_on": "2024-02-23T09:25:25.934Z",
+    "is_available": true,
+    "genre": [
+      4,
+      6,
+      7
+    ],
+    "authors": [
+      2,
+      4
+    ],
+    "tags": []
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 5,
+  "fields": {
+    "name": "Война старика",
+    "slug": "vojna-starika-5",
+    "image": "cover_images/Война_старика.jpg",
+    "description": "Премия John W. Campbell Award.\r\n\r\nЛауреат премий Stalker и Geffen.\r\n\r\nФиналист премий Locus, Hugo и Seiun.\r\n\r\nДжон Перри сделал две вещи в свой 75-й день рождения. Сначала он посетил могилу своей жены. Потом он завербовался в армию.\r\n\r\nЕсть две новости. Хорошая новость: человечество наконец-то добралось до звезд. И плохая новость: планет, пригодных для жизни, мало, а инопланетных видов, готовых за них сражаться, много. Вдали от Земли война продолжается десятилетиями: жестокая, кровавая, неизменная.\r\n\r\nОтветственным за защиту человечества Силам самообороны колоний не нужны молодые люди; им нужны люди, обладающие знаниями и навыками, накопленными за десятилетия жизни. Джон Перри уверен, что знает, чего ожидать. Но настоящая борьба намного, намного сложнее, чем он может себе представить. И Джон даже не представляет, кем станет.\r\n\r\n«Захватывающий, превосходный и оригинальный роман. \"Звездный десант\" без нравоучений. \"Вечная война\", но с сексом получше. Это забавно, это грустно, и это ново». — Кори Доктороу\r\n\r\n«Скальци уверенно обходит стороной большинство клише военной научной фантастики, создает быстро меняющиеся боевые сцены и уделяет внимание науке, лежащей в основе его посылки». — San Francisco Chronicle\r\n\r\n«Классика НФ, увиденная с современной точки зрения, — стремительное путешествие по пугающей, враждебной вселенной». — Роберт Чарльз Уилсон",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-163793-4",
+    "pages": 352,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "138x212 мм",
+    "added_on": "2024-02-23T09:32:08.316Z",
+    "updated_on": "2024-02-23T09:32:08.316Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      5
+    ],
+    "tags": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 6,
+  "fields": {
+    "name": "Господин мертвец. Том 1",
+    "slug": "gospodin-mertvec-tom-1-6",
+    "image": "cover_images/Господин_мертвец._Том_1.jpg",
+    "description": "Как защищать сослуживцев, если они боится тебя и презирают...\r\n\r\nФландрия, 1919-й год, самая страшная война в истории человечества все еще грохочет. Волю кайзеров и королей диктуют танками и аэропланами, а еще ей верны магильеры — фронтовые маги XX века.\r\n\r\nГермания еще не приняла капитуляцию и ее последняя надежда - \"мертвецкие части\", в которых служат вчерашние мертвецы, поднятые из могил штатными армейскими некромантами-тоттмейстерами.\r\n\r\nОни уже отдали жизнь за страну, но все еще в строю, хоть их сердца давно не бьются — искалеченные и заштопанные, знающие вкус иприта и шрапнели не понаслышке.\r\n\r\nОни — последняя надежда Германии, но сослуживцы косятся на \"мертвое воинство\" с ужасом и отвращением, называют их \"кайзерскими консервами\", \"гнильем\", \"мертвецами в форме\" и \"некрозными марионетками\".\r\n\r\nЖивые боятся того, что могут рассказать мертвые.",
+    "year": 2021,
+    "category": 1,
+    "isbn": "978-5-04-121044-1",
+    "pages": 640,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T09:37:09.470Z",
+    "updated_on": "2024-02-23T09:37:09.470Z",
+    "is_available": true,
+    "genre": [
+      4,
+      5
+    ],
+    "authors": [
+      6
+    ],
+    "tags": [
+      16
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 7,
+  "fields": {
+    "name": "Давайте все убьем Констанцию",
+    "slug": "davajte-vse-ubem-konstanciyu-7",
+    "image": "cover_images/Давайте_все_убьем_Констанцию.jpg",
+    "description": "Рэй Брэдбери (1920—2012) — великий мастер пера, классик мировой литературы и живая легенда фантастики. Его книги уже более полувека увлеченно читают миллионы людей во всем мире. Брэдбери намного больше, чем писатель-фантаст — его творчество можно отнести к «высокой», внежанровой литературе. Известнейшие романы, рассказы и повести, яркие и искренние, принесли Рэю Брэдбери славу не только придумщика удивительных историй, но и философа, мыслителя, психолога.",
+    "year": 2014,
+    "category": 1,
+    "isbn": "978-5-699-70828-4",
+    "pages": 288,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "115x180 мм",
+    "added_on": "2024-02-23T09:45:19.585Z",
+    "updated_on": "2024-02-23T10:05:25.622Z",
+    "is_available": true,
+    "genre": [
+      4,
+      5
+    ],
+    "authors": [
+      7
+    ],
+    "tags": [
+      17
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 8,
+  "fields": {
+    "name": "Двери во тьме",
+    "slug": "dveri-vo-tme-24",
+    "image": "cover_images/Двери_во_тьме.jpg",
+    "description": "«На пороге Тьмы» — популярный боевой цикл Андрея Круза.\r\n\r\nРеалистичные боевые сцены и суровая «окопная правда» — визитная карточка Андрея Круза, который пишет о любимом деле со знанием бывшего военного и владельца оружейного магазина.",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-158159-6",
+    "pages": 480,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T09:51:15.408Z",
+    "updated_on": "2024-02-23T09:51:15.408Z",
+    "is_available": true,
+    "genre": [
+      4,
+      6,
+      7
+    ],
+    "authors": [
+      2,
+      4
+    ],
+    "tags": []
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 9,
+  "fields": {
+    "name": "Девушка с татуировкой дракона",
+    "slug": "devushka-s-tatuirovkoj-drakona-8",
+    "image": "cover_images/Девушка_с_татуировкой_дракона.jpg",
+    "description": "BLACK — лимитированная коллекция триллеров для истинных ценителей жанра. Только подлинные шедевры современной и классической остросюжетной прозы, достойные лучшего полиграфического исполнения. Изысканный стиль, достойный содержания.\r\n\r\n«Девушка с татуировкой дракона» — начало культовой трилогии, проданной тиражом более 100 миллионов экземпляров. Абсолютный мировой бестселлер. Дважды экранизирован. Награды и премии, которых была удостоена книга, не поддаются подсчету. Этот роман навсегда изменил законы остросюжетной литературы.\r\n\r\nСорок лет загадка исчезновения юной родственницы не дает покоя стареющему промышленному магнату, и вот он предпринимает последнюю в своей жизни попытку — поручает розыск журналисту Микаэлю Блумквисту. Тот берется за безнадежное дело больше для того, чтобы отвлечься от собственных неприятностей, но вскоре понимает: проблема даже сложнее, чем кажется на первый взгляд.\r\n\r\nКак связано давнее происшествие на острове с несколькими убийствами женщин, случившимися в разные годы в разных уголках Швеции? При чем здесь цитаты из Третьей Книги Моисея? И кто, в конце концов, покушался на жизнь самого Микаэля, когда он подошел к разгадке слишком близко? И уж тем более он не мог предположить, что расследование приведет его в сущий ад среди идиллически мирного городка.\r\n\r\n«Дико напряженный, умный триллер с гениальным сюжетом, полностью завладевающий читателем». — The Washington Post\r\n\r\n«Восхитительный роман, написанный с невероятной страстью». — The Guardian\r\n\r\n«Уникально и завораживающе. Удовольствие как от глотка свежего воздуха». — Chicago Tribune\r\n\r\n«Вы даже не подозреваете, на что способна остросюжетная литература, пока не прочитали этот затягивающий роман». — Glamour",
+    "year": 2021,
+    "category": 1,
+    "isbn": "978-5-04-117653-2",
+    "pages": 544,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "138x212 мм",
+    "added_on": "2024-02-23T10:42:53.215Z",
+    "updated_on": "2024-02-23T10:42:53.215Z",
+    "is_available": true,
+    "genre": [
+      2,
+      3
+    ],
+    "authors": [
+      8
+    ],
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 10,
+  "fields": {
+    "name": "Десять негритят",
+    "slug": "desyat-negrityat-9",
+    "image": "cover_images/Десять_негритят.jpg",
+    "description": "Десять никак не связанных между собой людей в особняке на уединенном острове... Кто вызвал их сюда таинственным приглашением? Зачем кто-то убивает их, одного за другим, самыми невероятными способами? Почему все происходящее так тесно переплетено с веселым детским стишком?\r\n\r\nРоман \"Десять негритят\" – один из величайших детективных произведений в истории. Выпущенный общим тиражом более 100 000 000 экземпляров, он занимает пятое место в списке бестселлеров художественной литературы всех времен – и безусловное первое место среди романов самой Агаты Кристи.",
+    "year": 2018,
+    "category": 1,
+    "isbn": "978-5-04-091126-4",
+    "pages": 256,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "126x187 мм",
+    "added_on": "2024-02-23T10:48:55.759Z",
+    "updated_on": "2024-02-23T10:48:55.759Z",
+    "is_available": true,
+    "genre": [
+      2,
+      3
+    ],
+    "authors": [
+      9
+    ],
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 11,
+  "fields": {
+    "name": "Дни стужи",
+    "slug": "dni-stuzhi-1110",
+    "image": "cover_images/Дни_стужи.jpg",
+    "description": "Событие, навсегда изменившее мир.\r\n\r\nОн стал иным — очень странным, местами опасным и вновь — неисследованным.\r\n\r\nМосква осталась столицей, но уже Республики Московия, торговый центр «Охотный ряд» пришлось залить бетоном и запечатать магическими печатями, а в ярославских лесах порубежники выкуривают гнёзда чёрных вдов.\r\n\r\nОтставной порубежник Стас Григорьевич особо не помнит свою фамилию, её давно заменило прозвище — Хромой. Вместе со своим другом Иваном он выполняет заказы обеспеченных людей. Ведуны добывают полезные и опасные артефакты, а иногда — внешне самые обычные вещи. Например, подарок для дочки богатого купца.\r\n\r\nБезобидный новогодний подарок, с которого всё и началось…",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-158358-3",
+    "pages": 2022,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T10:53:01.446Z",
+    "updated_on": "2024-02-23T10:53:01.446Z",
+    "is_available": true,
+    "genre": [
+      10
+    ],
+    "authors": [
+      11,
+      10
+    ],
+    "tags": [
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 12,
+  "fields": {
+    "name": "Загадка Эндхауза",
+    "slug": "zagadka-endhauza-9",
+    "image": "cover_images/Загадка_Эндхауза.jpg",
+    "description": "Несмотря на то, что сама Агата Кристи не относилась всерьез к этому произведению, заявляя о том, что \"даже не помнит, как его писала\", роман стал одним из самых любимых у поклонников великого Эркюля Пуаро.\r\n\r\nОтдыхая на корнуолльском побережье со своим верным помощником капитаном Гастингсом, великий сыщик Эркюль Пуаро случайно узнает, что богатая хозяйка большого поместья Эндхауз, расположенного неподалеку от их отеля, прекрасная Ник Бакли жалуется на смертельную опасность, якобы угрожающую ей. Сначала, ни с того ни с сего, выходят из строя тормоза на ее автомобиле. Затем, на горной тропе, буквально в сантиметрах от нее пролетает упавший сверху валун. И, в довершение всего, на женщину обрушивается со стены большая тяжелая картина. Наконец, когда Пуаро обнаруживает отверстие от пули в летней шляпке Ник, он решает, что опасность действительно существует, и начинает расследование. Но его результаты поразят даже такого искушенного в преступлениях человека, как Пуаро…",
+    "year": 2019,
+    "category": 1,
+    "isbn": "978-5-04-150529-5",
+    "pages": null,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": null,
+    "added_on": "2024-02-23T11:03:56.717Z",
+    "updated_on": "2024-02-23T11:03:56.717Z",
+    "is_available": true,
+    "genre": [
+      2,
+      3
+    ],
+    "authors": [
+      9
+    ],
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 13,
+  "fields": {
+    "name": "Звонок из Мемфис",
+    "slug": "zvonok-iz-memfis-12",
+    "image": "cover_images/Звонок_из_Мемфис.jpg",
+    "description": "Вы смотрите, но не видите! Вы чувствуете, но не знаете что?! Вы хотите испытать, но готовы ли? Возрожденный Советский Союз, недалекое будущее... Крупного московского чиновника Богли, хакера Чуму, оказавшуюся в новом мире Анну Каренину, царевну Медею и бога Зевса ждет мир, где им предстоит отстоять право на главное человеческое чувство — любовь.",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-164784-1",
+    "pages": 320,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "138x212 мм",
+    "added_on": "2024-02-23T11:08:41.646Z",
+    "updated_on": "2024-02-23T11:08:41.646Z",
+    "is_available": true,
+    "genre": [
+      6,
+      9
+    ],
+    "authors": [
+      12
+    ],
+    "tags": []
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 14,
+  "fields": {
+    "name": "Игры Немезиды",
+    "slug": "igry-nemezidy-13",
+    "image": "cover_images/Игры_Немезиды.jpg",
+    "description": "Финалист премий «Локус» и «Гудридс».\r\n\r\nОткрытие далеких миров повлекло за собой величайшую в истории человечества экспансию. Искатели приключений тысячами отправляются в путешествия на поиски лучшей жизни, а между тем основы власти в Солнечной системе оказываются под угрозой. Многие корабли колонистов исчезают без следа. Тайно формируются мощные военные силы. Последний образец протомолекулы похищен. Атаки террористов держат в страхе внутренние планеты. Грехи прошлого возвращаются, взыскивая высокую плату. В то время как в огне и крови устанавливается новый порядок, Джеймс Холден и команда «Росинанта» вынуждены бороться, чтобы выжить и вернуться в единственный оставшийся у них дом.\r\n\r\nЛитературная основа сериала «Пространство» (The Expanse).",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-91878-352-8",
+    "pages": 512,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "138x212 мм",
+    "added_on": "2024-02-23T11:11:06.146Z",
+    "updated_on": "2024-02-23T11:11:06.146Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      13
+    ],
+    "tags": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 15,
+  "fields": {
+    "name": "Космонавт из Богемии",
+    "slug": "kosmonavt-iz-bogemii-14",
+    "image": "cover_images/Космонавт_из_Богемии.jpg",
+    "description": "Финалист премии Артура Ч. Кларка.\r\n\r\nНоминация на Dayton Literary Peace Prize.\r\n\r\nФиналист Center for Fiction First Novel Prize.\r\n\r\nЧерез Солнечную систему пролетает новая комета. После нее на орбите Венеры остается облако газа и космической пыли, принесенное из Глубокого Космоса. Это источник бесценной информации для земных ученых.\r\n\r\nДля изучения облака в космос отправляется чешский профессор-астрофизик Якуб Прохазка, дитя Бархатной революции, сын сотрудника Státní bezpečnost — Службы госбезопасности.\r\n\r\nИменно его ждет невероятное — первый контакт с внеземным разумом. Испытания и травмирующие воспоминания перемешиваются под сиянием звезд.\r\n\r\nМиссия на грани катастрофы. Человек и пришелец готовятся встретить свою судьбу.\r\n\r\n«Читается как \"Космическая одиссея\" Артура Кларка, скрещенная с романом Милана Кундеры, действие которого происходит во вселенной Филипа К. Дика, и с отсылками к «Превращению» Франца Кафки». — Library Journal\r\n\r\n«Смешайте Брэдбери и Лема с Сент-Экзюпери, и, возможно, немного Кафки, и вы получите роман чешского писателя-иммигранта Калфаржа. Книга, построенная на хитром юморе противоположностей. Объединяя тонкие аспекты чешской истории, Холодной войны и сегодняшней шаткой демократии, \"Кондитерские изделия Калфаржа\" представляют собой изобретательное, хорошо продуманное упражнение в фантастике. Занимательное, провокационное дополнение к романам о ближайшем будущем». — Kirkus Reviews",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-148566-5",
+    "pages": 384,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:17:52.044Z",
+    "updated_on": "2024-02-23T11:17:52.045Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      14
+    ],
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 16,
+  "fields": {
+    "name": "Красная Луна",
+    "slug": "krasnaya-luna-15",
+    "image": "cover_images/Красная_Луна.jpg",
+    "description": "Новинка! Новейший роман конца 2018 года от создателя \"Красного Марса\". Книга актуальна и посвящена китайской колонизации Луны, квантовым компьютерам и политике нового тысячелетия!\r\n\r\n2047 год. Луна колонизирована Китайской Народной Республикой.\r\n\r\nАмериканец Фред Фредерикс, сотрудник швейцарской ИТ-фирмы, прилетает на Луну. Он должен установить новую коммуникационную систему Китайской лунной администрации и неожиданно становится свидетелем и невольным соучастником убийства.\r\n\r\nЛуна - цель путешествия известнейшего журналиста и блогера Та Шу. Но даже несмотря на все свои связи и опыт, он скоро поймет, что \"Луна - жестко стелет\".\r\n\r\nНаконец, дочь министра финансов Чань Ци. Она оказывается на Луне по личным причинам, а ее попытка тайно вернуться в Китай вызовет события, которые изменят все — и на Луне, и на Земле.",
+    "year": 2019,
+    "category": 1,
+    "isbn": "978-5-04-100922-9",
+    "pages": 448,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "138x212 мм",
+    "added_on": "2024-02-23T11:20:52.233Z",
+    "updated_on": "2024-02-23T11:20:52.233Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      15
+    ],
+    "tags": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 17,
+  "fields": {
+    "name": "Лунный камень",
+    "slug": "lunnyj-kamen-16",
+    "image": "cover_images/Лунный_камень.jpg",
+    "description": "Идеи и сюжетные ходы Уилки Коллинза из романа «Лунный камень» использовали Конан Дойл, Гилберт Честертон, Агата Кристи, многое стало классикой для детективного жанра.\r\n\r\nИндуистский бог Вишну повелел, чтобы «Лунный камень охранялся тремя жрецами день и ночь, до скончания века» и предсказал несчастье тому, кто осмелится им завладеть. Захватывающее продолжение истории — в самом первом и самом лучшем, по словам Томаса Элиота, детективном романе английской литературы.",
+    "year": 2021,
+    "category": 1,
+    "isbn": "978-5-04-154129-3",
+    "pages": 512,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:23:32.494Z",
+    "updated_on": "2024-02-23T11:23:32.494Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      16
+    ],
+    "tags": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 18,
+  "fields": {
+    "name": "Орбита смерти",
+    "slug": "orbita-smerti-17",
+    "image": "cover_images/Орбита_смерти.jpg",
+    "description": "Автор и астронавт Крис Хэдфилд представляет этот триллер и «захватывающее путешествие» в темное сердце космической гонки времен «холодной войны».\r\n\r\n1973 год. Последняя, сверхсекретная миссия на Луну. Три астронавта на крошечном космическом корабле, в четверти миллиона миль от дома. В четверти миллиона миль от помощи.\r\n\r\nНАСА собирается запустить «Аполлон 18». Миссия была объявлена научной, но диспетчер полета Каз Земекис знает, что есть и скрытая цель. Разведка обнаружила секретный спутник-шпион, и только у «Аполлона-18» есть единственный шанс его разрушить.\r\n\r\nКаз всеми силами борется за то, чтобы экипаж НАСА был на шаг впереди своих соперников, но несчастный случай открывает, что не все участники программы являются теми, за кого их принимали. Когда политические ставки достигнут критического уровня, Белому дому и Кремлю останется только наблюдать, как их астронавты столкнутся на поверхности Луны, далеко за пределами досягаемости закона или помощи спасателей.\r\n\r\nПолный захватывающих технических подробностей, которые так понравились поклонникам «Марсианина», и напоминающий о захватывающей клаустрофобии, сюжетных поворотах и саспенсе «Охоты за \"Красным Октябрем\"», «Орбита смерти» — это триллер с высокими ставками, не похожий ни на один другой. Крис Хэдфилд запечатлел яростные перегрузки при запуске, ледяное одиночество космоса и страх покинуть космический корабль, вращающийся вокруг Земли со скоростью 17 000 миль в час, так, как может только тот, кто испытал все это в реальной жизни.\r\n\r\nПристегнитесь и начинайте обратный отсчет!\r\n\r\n«Коммандер Хэдфилд отправляет нас в захватывающее путешествие в альтернативное прошлое. Никто не напишет лучше об астронавтах, кроме самого астронавта!» — Энди Вейер\r\n\r\n«Книгу нельзя пропустить. В романе Криса Хэдфилда есть подлинность, потому что все, что он описывает, он действительно видел». — Фредерик Форсайт\r\n\r\n«\"Орбита смерти\" — захватывающий детективный технотриллер, написанный человеком, который сам бывал в космосе и прекрасно разбирается в деталях этой деятельности. Если вам скучно читать мемуары, но вы хотите узнать больше о космонавтике полувековой давности, то книга Хэдфилда — для вас. Главное, помнить, что это всё-таки фантастика!» — Антон Первушин\r\n\r\n«В романе есть что-то для каждого. Дерзкий космический полет, политическая интрига, шпионский триллер и старый добрый юмор — все это в одной захватывающей истории!» — Space Explored\r\n\r\n«Хэдфилд использует свой опыт астронавта, чтобы добавить достоверности и реализма своему роману. Поклонникам Клайва Касслера и Энди Вейера понравится эта книга, сочетающая военную фантастику, детектив и технотриллер». — Library Journal",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-172714-7",
+    "pages": 608,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:26:07.679Z",
+    "updated_on": "2024-02-23T11:26:07.679Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      17
+    ],
+    "tags": [
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 19,
+  "fields": {
+    "name": "Потому что нас много",
+    "slug": "potomu-chto-nas-mnogo-18",
+    "image": "cover_images/Потому_что_нас_много.jpg",
+    "description": "Финалист премии читателей Goodreads!\r\n\r\nМеждународный бестселлер и продолжение «Мы — Легион. Мы — Боб»!\r\n\r\nБоб не верил в загробную жизнь, поэтому был удивлен, когда проснулся после смерти. Еще большим шоком стало то, что теперь он всего лишь управляющий интеллект разумного компьютера в космическом зонде.\r\n\r\nБоб и его копии уже 40 лет как покинули Землю в поисках пригодных для жизни планет. За это время многое изменилось. Война уничтожила 99,9% человеческой расы, а ядерная зима медленно делает Землю необитаемой. Бразильские космические зонды все еще ведут конкурентную борьбу с репликантами Боба. А те обнаружили новый космический разумный вид, который рассматривает все остальные биологические формы как пищу.\r\n\r\nБоб покинул Землю, предвкушая жизнь, полную исследований и блаженного одиночества. Вместо этого он стал небесным богом для примитивного местного вида и единственной надеждой человечества найти новый дом. И, главное, только он может помешать каждому живому существу в галактике стать обедом для расы хищников.\r\n\r\n«Легкое, веселое и очень приятное чтение. Роман смогут оценить даже те, кто обычно не читает научную фантастику». — Bibliosanctum.com",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-168408-2",
+    "pages": 384,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:28:19.853Z",
+    "updated_on": "2024-02-23T11:28:19.853Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      18
+    ],
+    "tags": [
+      2,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 20,
+  "fields": {
+    "name": "Причины отделения",
+    "slug": "prichiny-otdeleniya-19",
+    "image": "cover_images/Причины_отделения.jpg",
+    "description": "Лауреат премии «Прометей» в категории «Лучший роман».\r\n\r\nЗемные державы снова атакуют независимую лунную колонию Аристилл. Диверсант Дьюитт переходит на сторону колонистов. Боевые роботы, разумные псы, искусственные интеллекты и лучшие инженеры и программисты — всё еще сильны и готовы отражать нападение землян. Но штурмовики ООН теснят Силы обороны Аристилла, а лучших бойцов берут в плен.\r\n\r\nОбитателям Аристилла придется прибегнуть к новой стратегии, чтобы защитить свою свободу. И в этой борьбе они пойдут до конца.\r\n\r\n«Я не один десяток лет ждал такую книгу. Книгу, которая с любовью отдавала дань уважения роману \"Луна — суровая хозяйка\" и не боялась ему отвечать. \"Аристилл\" — серьезная сага». — Эрик С. Рэймонд, автор труда «Собор и базар»\r\n\r\n«Шутки, перестрелки, собаки! В духе Нила Смита». — Клэр Вульф, автор книги «101 Things to Do 'Til the Revolution»\r\n\r\n«Одно слово: круто». — Курт Шлихтер, автор романа «People's Republic»\r\n\r\n«Таких увлекательных книг я не читал уже несколько лет. Советую!» — Роберт Крезе, автор «Mercury Falls», «The Big Sheep» и «Starship Gifters»\r\n\r\n«Работа профессионала, знающего свое дело и умеющего пользоваться писательскими техниками и приемами». — Уильям Стоддард, автор ролевой игры «GURPS Steampunk»\r\n\r\nДолгожданная завершающая часть дилогии «Аристилл», продолжение романа «Державы земные». Лауреат премии «Прометей» в номинации «Лучший роман».\r\n\r\nМайк Мартин, основатель независимой лунной колонии, узнает о подготовке миротворческого корпуса ООН к захвату Аристилла. На сторону колонистов переходит агент землян Дьюитт и становится командующим ополчения. Армия вторжения, поначалу терпевшая поражение, переходит в решительное наступление. В плен попадают лучшие бойцы, включая самого Майка и его возлюбленную, Дарси. Численный и военный перевес на стороне землян.\r\n\r\nЧтобы сохранить колонию и свою свободу, обитатели Аристилла выбирают совершенно новую стратегию защиты...",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-179134-6",
+    "pages": null,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": null,
+    "added_on": "2024-02-23T11:30:16.141Z",
+    "updated_on": "2024-02-23T11:30:16.141Z",
+    "is_available": true,
+    "genre": [
+      1
+    ],
+    "authors": [
+      19
+    ],
+    "tags": [
+      7,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 21,
+  "fields": {
+    "name": "Рассказы о Шерлоке Холмсе",
+    "slug": "rasskazy-o-sherloke-holmse-20",
+    "image": "cover_images/Рассказы_о_Шерлоке_Холмсе.jpg",
+    "description": "Перу английского писателя, публициста и журналиста Артура Конан Дойла принадлежат исторические, приключенческие, фантастические романы, но в мировую литературу он вошел как создатель самого Великого Сыщика всех времен и народов — Шерлока Холмса.\r\n\r\nБлагородный и бесстрашный борец со Злом, обладатель острого ума и необыкновенной наблюдательности, с помощью своего дедуктивного метода сыщик решает самые запутанные головоломки, зачастую спасая этим человеческие жизни. Он обладает актерским даром и умеет поставить эффектную точку в конце каждого блестяще проведенного им расследования. Неутомимый Шерлок Холмс и его легко увлекающийся друг доктор Ватсон дороги сердцу читателей всего мира.\r\n\r\nРассказы Конан Дойла изучаются на уроках внеклассного чтения в 5—9 классах.",
+    "year": 2023,
+    "category": null,
+    "isbn": "978-5-04-165784-0",
+    "pages": 352,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:33:35.146Z",
+    "updated_on": "2024-02-23T11:33:35.146Z",
+    "is_available": true,
+    "genre": [
+      8
+    ],
+    "authors": [
+      20
+    ],
+    "tags": [
+      13
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 22,
+  "fields": {
+    "name": "Смерть - дело одинокое",
+    "slug": "smert-delo-odinokoe-7",
+    "image": "cover_images/Смерть_-_дело_одинокое.jpg",
+    "description": "Мастер мирового масштаба, совмещающий в литературе несовместимое. Создатель таких хрестоматийных шедевров, как «Марсианские хроники», «Вино из одуванчиков», «451° по Фаренгейту» и так далее, и так далее. Лауреат многих литературных премий. Это Рэй Брэдбери. Магический реализм его прозы, рукотворные механизмы радости, переносящие человека из настоящего в волшебные миры детства, чудо приобщения к великой тайне Литературы, щедро раздариваемое читателю, давно вывели Рэя Брэдбери на классическую орбиту. Роман Брэдбери, написанный через двадцать с лишним лет после «Надвигается беда», удивил всех. «Смерть - дело одинокое» - это дань памяти «крутым» детективам Р. Чандлера и Д. Хэммета и классическому голливудскому нуару.\r\n\r\n1949 год. Венеция, штат Калифорния. \"Американские горки\" разобраны на металлолом. Кинотеатр на пирсе пуст и заколочен. В львиной клетке, затопленной в канале, находят мертвое тело. Первое из многих... Все склонны считать, что никакой связи между смертями нет. Кроме детектива Элмо Крамли и странного молодого человека, целыми днями просиживающего за пишущей машинкой и рассылающего свои рассказы в журналы \"Черная маска\", \"Сверхъестественные истории\", \"Мадмуазель\".\r\n\r\nРоман Брэдбери, написанный через двадцать с лишним лет после \"Надвигается беда\", удивил всех. \"Смерть – дело одинокое\" – это дань памяти «крутым» детективам Р. Чандлера и Д. Хэммета и классическому голливудскому нуару.",
+    "year": 1985,
+    "category": 1,
+    "isbn": "978-5-04-149399-8",
+    "pages": null,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": null,
+    "added_on": "2024-02-23T11:35:50.454Z",
+    "updated_on": "2024-02-23T11:35:50.454Z",
+    "is_available": true,
+    "genre": [
+      2,
+      4
+    ],
+    "authors": [
+      7
+    ],
+    "tags": []
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 23,
+  "fields": {
+    "name": "Странники",
+    "slug": "stranniki-24-978-5-04-158166-4",
+    "image": "cover_images/Странники.jpg",
+    "description": "«На пороге Тьмы» — популярный боевой цикл Андрея Круза.\r\n\r\nРеалистичные боевые сцены и суровая «окопная правда» — визитная карточка Андрея Круза, который пишет о любимом деле со знанием бывшего военного и владельца оружейного магазина.",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-158166-4",
+    "pages": 448,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:41:49.683Z",
+    "updated_on": "2024-02-23T11:41:49.683Z",
+    "is_available": true,
+    "genre": [
+      6,
+      7
+    ],
+    "authors": [
+      2,
+      4
+    ],
+    "tags": [
+      12
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 24,
+  "fields": {
+    "name": "Сумерки Бога, или Кухонные астронавты",
+    "slug": "sumerki-boga-ili-kuhonnye-astronavty-21-978-5-04-178104-0",
+    "image": "cover_images/Сумерки_Бога_или_Кухонные_астронавты.jpg",
+    "description": "Этот роман по силе авторского воображения можно поставить в один ряд с замечательным культовым фильмом «Интерстеллар», а также великими романами Ивана Ефремова «Час Быка» и братьев Стругацких «За миллиард лет до конца света». Вот только «Сумерки Бога» гораздо глубже, значительно ближе подходят к пониманию непознанной мега-связи между человеческим мозгом и Вселенной. Это философская фантастика с художественным осмыслением общественных потрясений последних лет.\r\n\r\nЧеловечество достигло вершины своего развития. Люди победили ненависть, освободились от рабства страстям, богатству и власти.\r\n\r\nИнтернациональный экипаж новейшего субквантового звездолета отправляется в экспедицию, чтобы попытаться достичь края Вселенной. Семь месяцев изнурительного полета завершаются чередой загадочных и трагических происшествий, а затем и катастрофой поистине космического масштаба, разрывающей саму ткань Мироздания, искажающей Пространство и Время...\r\n\r\nОни вернулись на Землю, в то же время — но в иной вариант реальности, бесконечно далекой от прежнего идеального мира.\r\n\r\nЭто захватывающий литературный микс из космических приключений в стилистике ретрофутуризма, реалистической прозы и пугающе притягательной антиутопии. Роман безусловно рекомендуем тем, кто интересуется современной социологией, проблематикой искусственного интеллекта и футурологическими прогнозами.\r\n\r\n------------------------------\r\n\r\n«Стремление автора к художественному исследованию мироздания, отчасти обозначенное в «Единой теории всего», в \"Кухонных астронавтах\" реализуется еще с большей силой. Я бы назвал эту повесть «Последняя книга на Земле». Не дай Бог, конечно...» — Андрей Дышев, редактор\r\n\r\n«В конечном счете вся повесть — это размышление о том, насколько велики наши иллюзии и как глубоко мы в них погрязли. Что есть в этом мире живого и настоящего, а что давно омертвело, исказилось и должно быть переделано? Но кем? Нами или богами, которых мы уже сотворили? И какой ценой? Кто распоряжается нашими жизнями в конце концов?» — Виктория Золотова, магистр филологии\r\n\r\n«Автор удивляет — безусловно в хорошем смысле. Не буду скрывать, что так или иначе ждешь от его новых книг мистического сюжета, он очень успешно начал с этой тематики. Однако \"Кухонные астронавты\" гораздо глубже, чем обычная фантастика, затронуты многие важнейшие философские вопросы, очень нетривиальный сюжет». — Евгений Чесноков",
+    "year": 2023,
+    "category": 1,
+    "isbn": "978-5-04-178104-0",
+    "pages": 320,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:45:46.621Z",
+    "updated_on": "2024-02-23T11:45:46.621Z",
+    "is_available": true,
+    "genre": [
+      6,
+      7
+    ],
+    "authors": [
+      21
+    ],
+    "tags": []
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 25,
+  "fields": {
+    "name": "Тайна отца Брауна",
+    "slug": "tajna-otca-brauna-22-978-5-04-145836-2",
+    "image": "cover_images/Тайна_отца_Брауна.jpg",
+    "description": "Рассказы Гилберта Кийта Честертона о проницательном священнике Брауне, раскрывающем сложнейшие преступления, стали классикой детективного жанра. Занимательные истории с увлекательным сюжетом, неподражаемым английским юмором и элементами притчи – настоящее удовольствие для любителей детектива.\r\n\r\nВ сборник вошли рассказы из пяти циклов об отце Брауне.",
+    "year": 2024,
+    "category": 1,
+    "isbn": "978-5-04-145836-2",
+    "pages": null,
+    "language": "",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": null,
+    "added_on": "2024-02-23T11:47:34.689Z",
+    "updated_on": "2024-02-23T11:47:34.690Z",
+    "is_available": true,
+    "genre": [
+      2
+    ],
+    "authors": [
+      22
+    ],
+    "tags": [
+      13
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 26,
+  "fields": {
+    "name": "Убийство на улице Морг",
+    "slug": "ubijstvo-na-ulice-morg-23-978-5-699-87997-7",
+    "image": "cover_images/Убийство_на_улице_Морг.jpg",
+    "description": "Ужас, подавляющий чувства, таинственные события, призраки потустороннего мира - в готических историях Эдгара По не надейтесь на счастливый конец.",
+    "year": 2016,
+    "category": 1,
+    "isbn": "978-5-699-87997-7",
+    "pages": 288,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "115x180 мм",
+    "added_on": "2024-02-23T11:49:51.823Z",
+    "updated_on": "2024-02-23T11:49:51.823Z",
+    "is_available": true,
+    "genre": [
+      2,
+      3
+    ],
+    "authors": [
+      23
+    ],
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 27,
+  "fields": {
+    "name": "Чужие игры Противостояние",
+    "slug": "chuzhie-igry-protivostoyanie-24-978-5-04-165387-3",
+    "image": "cover_images/Чужие_игры_Противостояние.jpg",
+    "description": "Новый роман от Вадима Панова, автора прославленного «Тайного Города» и «Герметикона».\r\n\r\nАвтор расширяет аудиторию!\r\n\r\nВстреча блогеров с пришельцами. Романтическая линия, разворачивающаяся в замкнутом пространстве захваченного пришельцами корабля. «Золотая молодежь» столкнулась с реальными проблемами в фантастической обстановке.",
+    "year": 2022,
+    "category": 1,
+    "isbn": "978-5-04-165387-3",
+    "pages": 480,
+    "language": "Русский",
+    "publisher": "Эксмо",
+    "price": null,
+    "format": "125x200 мм",
+    "added_on": "2024-02-23T11:52:29.029Z",
+    "updated_on": "2024-02-23T11:52:29.029Z",
+    "is_available": true,
+    "genre": [
+      7
+    ],
+    "authors": [
+      24
+    ],
+    "tags": [
+      14
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$gU2ZgjE7PBrdxb07J4J71U$EoofIK0qfpWxDGghDsEHoV9WuC5tANROVeFsbGQsYsw=",
+    "last_login": "2024-03-14T13:40:33.250Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-14T11:19:43.011Z",
+    "photo": "",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

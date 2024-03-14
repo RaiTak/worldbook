@@ -1,15 +1,15 @@
 from django.contrib.auth import get_user_model
-from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.views import LoginView, LogoutView
-from django.shortcuts import render
+from django.contrib.auth.views import LoginView
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView
+from config import settings
+from users.forms import ProfileUserForm, LoginUserForm, RegisterUserForm
 
 
 # Create your views here.
 class LoginUser(LoginView):
-    form_class = AuthenticationForm
+    form_class = LoginUserForm
     template_name = 'users/login.html'
     extra_context = {
         'title': 'Авторизация',
@@ -20,7 +20,7 @@ class LoginUser(LoginView):
 
 
 class RegisterUser(CreateView):
-    form_class = UserCreationForm
+    form_class = RegisterUserForm
     template_name = 'users/register.html'
     extra_context = {
         'title': 'Регистрация',
@@ -30,8 +30,12 @@ class RegisterUser(CreateView):
 
 class ProfileUser(LoginRequiredMixin, UpdateView):
     model = get_user_model()
+    form_class = ProfileUserForm
     template_name = 'users/profile.html'
-    fields = ['email', 'first_name', 'last_name']
+    extra_context = {
+        'title': "Профиль пользователя",
+        'default_image': settings.DEFAULT_USER_IMAGE,
+    }
 
     def get_success_url(self):
         return reverse_lazy('users:profile')
