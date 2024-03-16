@@ -25,6 +25,7 @@ urlpatterns = [
     path('', include('main.urls', namespace='main')),
     path('catalog/', include('catalog.urls', namespace='catalog')),
     path('users/', include('users.urls', namespace='users')),
+    path('social-auth/', include('social_django.urls', namespace='social')),
     path("__debug__/", include("debug_toolbar.urls")),
 ]
 

@@ -5,7 +5,7 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, Pass
 
 class ProfileUserForm(forms.ModelForm):
     username = forms.CharField(disabled=True, label='Логин', widget=forms.TextInput())
-    email = forms.CharField(disabled=True, label='E-mail', widget=forms.EmailInput())
+    email = forms.CharField(disabled=True, required=False, label='E-mail', widget=forms.EmailInput())
 
     class Meta:
         model = get_user_model()

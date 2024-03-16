@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.09 Create PasswordChange">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.10 Create PasswordReset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/users/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/password_change_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -186,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710434433013</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0.10 Create PasswordReset">
+      <option name="closed" value="true" />
+      <created>1710580980851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710580980851</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +201,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -209,6 +228,7 @@
     <MESSAGE value="0.07 Update login, register, profile; create postgresql" />
     <MESSAGE value="0.08 Create EmailBackend" />
     <MESSAGE value="0.09 Create PasswordChange" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.09 Create PasswordChange" />
+    <MESSAGE value="0.10 Create PasswordReset" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.10 Create PasswordReset" />
   </component>
 </project>
