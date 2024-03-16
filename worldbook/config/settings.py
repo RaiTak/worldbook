@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'django_filters',
     'social_django',
+    'captcha',
 
     'main',
     'catalog',

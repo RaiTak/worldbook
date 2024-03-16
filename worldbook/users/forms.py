@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, PasswordChangeForm
+from captcha.fields import CaptchaField
 
 
 class ProfileUserForm(forms.ModelForm):
@@ -23,20 +24,22 @@ class ProfileUserForm(forms.ModelForm):
 class LoginUserForm(AuthenticationForm):
     username = forms.CharField(label="Логин", widget=forms.TextInput())
     password = forms.CharField(label="Пароль", widget=forms.PasswordInput())
+    captcha = CaptchaField()
 
     class Meta:
         model = get_user_model()
-        fields = ['username', 'password']
+        fields = ['username', 'password', 'captcha']
 
 
 class RegisterUserForm(UserCreationForm):
     username = forms.CharField(label='Логин', widget=forms.TextInput())
     password1 = forms.CharField(label='Пароль', widget=forms.PasswordInput())
     password2 = forms.CharField(label='Повтор пароля', widget=forms.PasswordInput())
+    captcha = CaptchaField()
 
     class Meta:
         model = get_user_model()
-        fields = ['username', 'email', 'first_name', 'last_name', 'password1', 'password2']
+        fields = ['username', 'email', 'first_name', 'last_name', 'password1', 'password2', 'captcha']
         labels = {
             'email': 'E-mail',
             'first_name': 'Имя',
