@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.11 Create Authentication GitHub">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.12 Create Simple Captcha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/users/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710586968004</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0.12 Create Simple Captcha">
+      <option name="closed" value="true" />
+      <created>1710588520237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710588520237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +243,7 @@
     <MESSAGE value="0.09 Create PasswordChange" />
     <MESSAGE value="0.10 Create PasswordReset" />
     <MESSAGE value="0.11 Create Authentication GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.11 Create Authentication GitHub" />
+    <MESSAGE value="0.12 Create Simple Captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.12 Create Simple Captcha" />
   </component>
 </project>
