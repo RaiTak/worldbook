@@ -9,6 +9,20 @@
 <hr>
 {% endblock %}
 
+{% block cart %}
+{% with total_items=cart|length %}
+    {% if total_items > 0 %}
+        Ваша корзина:
+        <a href="{% url 'cart:cart' %}">
+            {{ total_items}} Книга |
+            Тенге: {{ cart.get_total_price }}
+        </a>
+    {% else %}
+        Корзина пуста
+    {% endif %}
+{% endwith %}
+<hr>
+{% endblock %}
 
 {% block content %}
 <form method="get">
