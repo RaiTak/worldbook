@@ -10,11 +10,15 @@
 <body>
 {% block mainmenu %}
     <nav>
-    <a href="{% url 'main:home' %}">Home</a>
+    <a href="{% url 'main:home' %}">Главная</a>
     |
-    <a href="{% url 'catalog:catalog' %}">Сatalog</a>
+    <a href="{% url 'catalog:catalog' %}">Каталог</a>
     |
-    <a href="{% url 'main:about' %}">About</a>
+    <a href="{% url 'cart:cart' %}">Корзина</a>
+    |
+    <a href="{% url 'blog:posts' %}">Статьи</a>
+    |
+    <a href="{% url 'main:about' %}">О нас</a>
     </nav>
 
     {% if user.is_authenticated %}

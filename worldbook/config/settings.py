@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'catalog',
     'users',
     'cart',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -184,3 +185,5 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 )
+
+CART_SESSION_ID = 'cart'

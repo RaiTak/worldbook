@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+
+
+{% block content %}
+<h1>Статьи</h1>
+
+<ul>
+    {% for post in posts %}
+        <p>{{ post.title }}</p>
+        <p>{{ post.content|truncatewords:30|linebreaks }}</p>
+        <p>Опубликовано: {{ post.publish }} ------- Автор: {{ post.author }}</p>
+        <hr>
+    {% endfor %}
+</ul>
+{% endblock %}

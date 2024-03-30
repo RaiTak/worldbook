@@ -1,0 +1,53 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<h1>Корзина</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Обложка</th>
+        <th>Название</th>
+        <th>Количество</th>
+        <th>Цена за штуку</th>
+        <th>Общая цена</th>
+        <th>Удалить</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for item in cart %}
+        {% with book=item.book %}
+            <tr>
+                <td>
+                    <a href="{{ book.get_absolute_url }}">
+                        <img src="{% if book.image %}{{ book.image.url }}
+                        {% else %}{% static 'img/no_image.png' %}{% endif %}">
+                    </a>
+                </td>
+                <td>{{ book.name }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.price }}</td>
+                <td>{{ item.total_price }}</td>
+                <td>
+                    <form action="{% url 'cart:remove' book.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit">Удалить</button>
+                    </form>
+                </td>
+            </tr>
+        {% endwith %}
+    {% endfor %}
+    <tr>
+        <td>Итого</td>
+        <td>{{ cart.get_total_price }}</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+
+<li><a href="{% url 'catalog:catalog' %}">Продолжить покупки</a></li>
+<li><a href="#">Оплатить счёт</a></li>
+{% endblock %}

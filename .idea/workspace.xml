@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.12 Create Simple Captcha">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.13 Create App Cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/cart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worldbook/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Академия.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Академия.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Бандит.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Бандит.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Вечная_жизнь_Смерти.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Вечная_жизнь_Смерти.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Возле_тьмы._Чужой.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Возле_тьмы._Чужой.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Война_старика.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Война_старика.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Господин_мертвец._Том_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Господин_мертвец._Том_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Давайте_все_убьем_Констанцию.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Давайте_все_убьем_Констанцию.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Двери_во_тьме.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Двери_во_тьме.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Девушка_с_татуировкой_дракона.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Девушка_с_татуировкой_дракона.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Десять_негритят.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Десять_негритят.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Дни_стужи.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Дни_стужи.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Загадка_Эндхауза.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Загадка_Эндхауза.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Звонок_из_Мемфис.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Звонок_из_Мемфис.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Игры_Немезиды.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Игры_Немезиды.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Космонавт_из_Богемии.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Космонавт_из_Богемии.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Красная_Луна.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Красная_Луна.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Лунный_камень.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Лунный_камень.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Орбита_смерти.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Орбита_смерти.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Потому_что_нас_много.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Потому_что_нас_много.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Причины_отделения.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Причины_отделения.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Рассказы_о_Шерлоке_Холмсе.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Рассказы_о_Шерлоке_Холмсе.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Смерть_-_дело_одинокое.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Смерть_-_дело_одинокое.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Странники.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Странники.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Сумерки_Бога_или_Кухонные_астронавты.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Сумерки_Бога_или_Кухонные_астронавты.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Тайна_отца_Брауна.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Тайна_отца_Брауна.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Убийство_на_улице_Морг.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Убийство_на_улице_Морг.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/media/cover_images/Чужие_игры_Противостояние.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/media/cover_images/Чужие_игры_Противостояние.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -206,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710588520237</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.13 Create App Cart">
+      <option name="closed" value="true" />
+      <created>1710605877896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710605877896</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +285,7 @@
     <MESSAGE value="0.10 Create PasswordReset" />
     <MESSAGE value="0.11 Create Authentication GitHub" />
     <MESSAGE value="0.12 Create Simple Captcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.12 Create Simple Captcha" />
+    <MESSAGE value="0.13 Create App Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.13 Create App Cart" />
   </component>
 </project>

@@ -18,14 +18,14 @@
     <hr>
 </form>
 
-<ul>
-    {% for book in books %}
-        <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
-        <img src="{{ book.image.url }}" alt="{{ book.name }}">
-    {% empty %}
-        <p>Книги не найдены.</p>
-    {% endfor %}
-</ul>
+
+{% for book in books %}
+    <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
+    <a href="{{ book.get_absolute_url }}"><img src="{{ book.image.url }}" alt="{{ book.name }}"></a>
+{% empty %}
+    <p>Книги не найдены.</p>
+{% endfor %}
+
 {% endblock %}
 
 

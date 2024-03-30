@@ -1,4 +1,5 @@
 {% extends 'catalog/catalog.html' %}
+{% load static %}
 
 
 {% block content %}
@@ -55,7 +56,12 @@
     <p>Размер: {{ book.format }}</p>
 
     <h2>Цена</h2>
-    <p>{{ book.price }}</p>
+    <p>Тенге: {{ book.price }}</p>
+    <form action="{% url 'cart:add' book.id %}" method="post">
+        {{ cart_form }}
+        {% csrf_token %}
+        <button type="submit">Добавить в корзину</button>
+    </form>
 {% endblock %}
 
 

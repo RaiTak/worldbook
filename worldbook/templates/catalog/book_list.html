@@ -16,7 +16,7 @@
         {% for book in books %}
             <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
             {% if book.image %}
-                <img src="{{ book.image.url }}" alt="{{ book.title }}">
+                <a href="{{ book.get_absolute_url }}"><img src="{{ book.image.url }}" alt="{{ book.title }}"></a>
             {% endif %}
         {% endfor %}
     {% else %}
@@ -39,7 +39,7 @@
         {% for book in books %}
             <p><a href="{{ book.get_absolute_url }}">{{ book.name }}</a></p>
             {% if book.image %}
-                <img src="{{ book.image.url }}" alt="{{ book.title }}">
+                <a href="{{ book.get_absolute_url }}"><img src="{{ book.image.url }}" alt="{{ book.title }}"></a>
             {% endif %}
         {% endfor %}
     {% else %}

@@ -4,6 +4,7 @@ from django.views.generic import DetailView, ListView
 from catalog.models import Category, Book, Genre, Tag, Author
 from .utils import BookFilter, search_book
 from django.http import Http404
+from cart.forms import CartAddBookForm
 
 
 MODEL_MAP = {
@@ -54,7 +55,6 @@ class BookListView(ListView):
 
         return obj.books.all()
 
-
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         type = self.kwargs.get('type').lower()
@@ -75,6 +75,7 @@ class BookDetailView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = self.object.name
+        context['cart_form'] = CartAddBookForm()
         return context
 
 

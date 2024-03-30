@@ -97,6 +97,7 @@ class Book(models.Model):
     is_available = models.BooleanField(default=True, verbose_name='В наличии')
 
     class Meta:
+        ordering = ['name']
         verbose_name = 'Книга'
         verbose_name_plural = 'Книги'
 
