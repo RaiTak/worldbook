@@ -14,6 +14,11 @@ class CartDetailView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         cart = Cart(self.request)
+        for item in cart:
+            item['update_quantity_form'] = CartAddBookForm(initial={
+                'quantity': item['quantity'],
+                'override': True})
+
         context['cart'] = cart
         return context
 
