@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.15 Create change quantity Cart">
+    <list default="true" id="a7eb16a7-a49e-4cec-bc2c-0fa790765aaf" name="Changes" comment="0.16 Create Orders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/catalog/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldbook/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/orders/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldbook/orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/worldbook/orders/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711810612047</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0.16 Create Orders">
+      <option name="closed" value="true" />
+      <created>1711812190852</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711812190852</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +279,7 @@
     <MESSAGE value="0.13 Create App Cart" />
     <MESSAGE value="0.14 Create class etc. Cart" />
     <MESSAGE value="0.15 Create change quantity Cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.15 Create change quantity Cart" />
+    <MESSAGE value="0.16 Create Orders" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.16 Create Orders" />
   </component>
 </project>
