@@ -1,5 +1,5 @@
 """
-URL configuration for config project.
+URL configuration for worldbook project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -18,7 +18,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from config import settings
+from worldbook import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +27,8 @@ urlpatterns = [
     path('users/', include('users.urls', namespace='users')),
     path('cart/', include('cart.urls', namespace='cart')),
     path('blog/', include('blog.urls', namespace='blog')),
+    path('orders/', include('orders.urls', namespace='orders')),
+    path('payment/', include('payment.urls', namespace='payment')),
     path('social-auth/', include('social_django.urls', namespace='social')),
     path('captcha/', include('captcha.urls')),
     path("__debug__/", include("debug_toolbar.urls")),

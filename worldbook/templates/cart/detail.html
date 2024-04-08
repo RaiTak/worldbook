@@ -56,5 +56,5 @@
 <hr>
 
 <li><a href="{% url 'catalog:catalog' %}">Продолжить покупки</a></li>
-<li><a href="#">Оплатить счёт</a></li>
+<li><a href="{% url 'orders:create' %}">Оплатить счёт</a></li>
 {% endblock %}

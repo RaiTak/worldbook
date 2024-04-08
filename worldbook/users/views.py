@@ -3,7 +3,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView
-from config import settings
+from worldbook import settings
 from users.forms import ProfileUserForm, LoginUserForm, RegisterUserForm, UserPasswordChangeForm
 
 

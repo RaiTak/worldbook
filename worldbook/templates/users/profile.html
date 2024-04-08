@@ -7,7 +7,7 @@
     {% csrf_token %}
 
     {% if user.photo %}
-    <p><img src="{{ url.photo.url }}">
+    <p><img src="{{ user.photo.url }}">
     {% else %}
     <p><img src="/{{ default_image }}">
     {% endif %}
